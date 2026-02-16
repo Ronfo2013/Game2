@@ -195,7 +195,7 @@ const CONFIG = {
     
     endGame: {
       won: {
-        title: "🎉 HAI VINTO IL MILIONE! 🎉",
+        title: "🎉 SEI DIVENTATO IL DOGE! 🎉",
         text: "Complimenti! Sei un vero esperto di Portogruaro!"
       },
       retired: {

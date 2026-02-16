@@ -375,7 +375,7 @@ function endGame(won, retired = false) {
     const finalPrize = document.getElementById('finalPrize');
     
     if (won && currentQuestion >= questions.length) {
-        // Ha vinto il milione!
+        // È diventato il Doge!
         title.textContent = '🎉 HAI VINTO! 🎉';
         message.textContent = 'Complimenti! Hai risposto a tutte le domande e vinto il premio massimo!';
         finalPrize.textContent = formatCurrency(1000000);
