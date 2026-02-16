@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chi vuole essere Il Doge? - Caffè dell'Angolo Edition</title>
+    <title>Chi Vuole Essere Il Doge? - Caffè dell'Angolo Edition</title>
     <link rel="stylesheet" href="style.css">
     <style>
         .logo-image {
@@ -14,18 +14,38 @@
             filter: drop-shadow(0 10px 30px rgba(255, 215, 0, 0.3));
         }
         
-        .venice-pattern {
-            background: repeating-linear-gradient(
-                45deg,
-                rgba(139, 0, 0, 0.1),
-                rgba(139, 0, 0, 0.1) 10px,
-                rgba(218, 165, 32, 0.1) 10px,
-                rgba(218, 165, 32, 0.1) 20px
-            );
+        body.pregame-bg {
+            background: radial-gradient(ellipse at center, #1a237e 0%, #0d1442 40%, #050a1f 80%, #000005 100%);
+            position: relative;
+            overflow-x: hidden;
+        }
+        body.pregame-bg::before {
+            content: '';
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: 
+                radial-gradient(2px 2px at 20% 30%, rgba(255,215,0,0.3), transparent),
+                radial-gradient(2px 2px at 40% 70%, rgba(255,215,0,0.2), transparent),
+                radial-gradient(2px 2px at 60% 20%, rgba(255,215,0,0.25), transparent),
+                radial-gradient(2px 2px at 80% 60%, rgba(255,215,0,0.15), transparent),
+                radial-gradient(3px 3px at 10% 80%, rgba(100,149,237,0.2), transparent),
+                radial-gradient(3px 3px at 90% 40%, rgba(100,149,237,0.15), transparent),
+                radial-gradient(2px 2px at 50% 50%, rgba(255,215,0,0.1), transparent);
+            pointer-events: none;
+            z-index: 0;
+            animation: twinkle 4s ease-in-out infinite alternate;
+        }
+        body.pregame-bg .main-menu {
+            position: relative;
+            z-index: 1;
+        }
+        @keyframes twinkle {
+            0% { opacity: 0.5; }
+            100% { opacity: 1; }
         }
     </style>
 </head>
-<body class="venice-pattern">
+<body class="pregame-bg">
     <div class="main-menu">
         <div class="logo-container">
             <img src="logo.png" alt="Caffè dell'Angolo" class="logo-image" id="cafeLogoImg">
@@ -54,18 +74,10 @@
                 <span class="btn-icon">⚙️</span>
                 IMPOSTAZIONI
             </button>
-            
-            <button class="menu-btn venice-btn" onclick="viewAbout()">
-                <span class="btn-icon">📜</span>
-                STORIA DI PORTOGRUARO
-            </button>
         </div>
         
         <div class="footer-info">
-            <p>🦁 Una produzione Caffè dell'Angolo - Portogruaro 🦁</p>
-            <p style="font-size: 0.8rem; margin-top: 10px;">
-                Domande sulla storia di Portogruaro, dal 1140 ai giorni nostri
-            </p>
+            <p>Gioco creato a fini culturali</p>
         </div>
     </div>
     
@@ -115,59 +127,131 @@
         </div>
     </div>
 
-    <!-- Modal About -->
-    <div id="aboutModal" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeAbout()">&times;</span>
-            <h2>📜 La Storia di Portogruaro</h2>
-            
-            <div class="history-content">
-                <h3>🏛️ Le Origini (1140)</h3>
-                <p>
-                    Il 10 gennaio 1140, il vescovo di Concordia Gervino concede ad alcuni mercanti
-                    (portolani) un terreno lungo il fiume Lemene per costruire un porto, case e magazzini.
-                    Nasce così Portogruaro.
-                </p>
-                
-                <h3>🦁 L'Era Veneziana (1420-1797)</h3>
-                <p>
-                    Nel 1420 Portogruaro entra a far parte della Serenissima Repubblica di Venezia,
-                    vivendo il suo periodo di massimo splendore. La città si arricchisce grazie ai
-                    commerci sul Lemene e diventa una "piccola Venezia" con magnifici palazzi gotici
-                    e rinascimentali.
-                </p>
-                
-                <h3>🎨 Personaggi Illustri</h3>
-                <p>
-                    <strong>Luigi Russolo</strong> (1885-1947) - Futurista, inventore degli Intonarumori,
-                    pioniere della musica elettronica.<br>
-                    <strong>Lorenzo Da Ponte</strong> (1749-1838) - Librettista di Mozart, ordinato prete
-                    a Portogruaro nel 1773, autore dei testi di "Le Nozze di Figaro", "Don Giovanni" e
-                    "Così fan tutte".
-                </p>
-                
-                <h3>🏰 Monumenti Iconici</h3>
-                <p>
-                    <strong>Il Pozzo delle Due Gru</strong> - Simbolo della città<br>
-                    <strong>Palazzo Municipale</strong> - Edificio gotico del 1265<br>
-                    <strong>Il Campanile Pendente</strong> - 59 metri di altezza<br>
-                    <strong>I Mulini sul Lemene</strong> - Testimoni del passato industriale
-                </p>
-            </div>
-            
-            <button class="menu-btn venice-btn" onclick="closeAbout()">Chiudi</button>
-        </div>
-    </div>
+    <!-- Pulsante musica flottante -->
+    <button id="musicToggle" class="music-toggle-btn" onclick="toggleMusic()" title="Attiva/Disattiva Musica">
+        🔇
+    </button>
 
     <script src="main.js"></script>
     <script>
-        function viewAbout() {
-            document.getElementById('aboutModal').classList.add('show');
+        // ============================================
+        // MUSICA TEMA - Stile "Chi Vuole Essere Il Doge"
+        // ============================================
+        let audioCtx = null;
+        let musicPlaying = false;
+        let musicInterval = null;
+        let musicGain = null;
+
+        function createMusicContext() {
+            audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+            musicGain = audioCtx.createGain();
+            musicGain.gain.value = 0.15;
+            musicGain.connect(audioCtx.destination);
         }
-        
-        function closeAbout() {
-            document.getElementById('aboutModal').classList.remove('show');
+
+        function playNote(freq, startTime, duration, type = 'sine', volume = 0.15) {
+            const osc = audioCtx.createOscillator();
+            const gain = audioCtx.createGain();
+            osc.type = type;
+            osc.frequency.value = freq;
+            const fadeTime = Math.min(0.05, duration * 0.3);
+            gain.gain.setValueAtTime(0, startTime);
+            gain.gain.linearRampToValueAtTime(volume, startTime + fadeTime);
+            gain.gain.setValueAtTime(volume, startTime + duration - fadeTime);
+            gain.gain.linearRampToValueAtTime(0, startTime + duration);
+            osc.connect(gain);
+            gain.connect(musicGain);
+            osc.start(startTime);
+            osc.stop(startTime + duration);
+        }
+
+        function playThemeLoop() {
+            if (!audioCtx) createMusicContext();
+            const now = audioCtx.currentTime;
+            const bpm = 100;
+            const beat = 60 / bpm;
+
+            const bassNotes = [130.81, 130.81, 164.81, 164.81, 146.83, 146.83, 174.61, 174.61,
+                               130.81, 130.81, 164.81, 164.81, 146.83, 146.83, 123.47, 123.47];
+            bassNotes.forEach((freq, i) => {
+                playNote(freq, now + i * beat * 0.5, beat * 0.45, 'triangle', 0.12);
+            });
+
+            const arpNotes = [
+                [261.63, 0], [329.63, 0.25], [392.00, 0.5], [329.63, 0.75],
+                [293.66, 1], [349.23, 1.25], [440.00, 1.5], [349.23, 1.75],
+                [261.63, 2], [329.63, 2.25], [392.00, 2.5], [523.25, 2.75],
+                [493.88, 3], [440.00, 3.25], [392.00, 3.5], [349.23, 3.75],
+                [261.63, 4], [329.63, 4.25], [392.00, 4.5], [329.63, 4.75],
+                [293.66, 5], [349.23, 5.25], [440.00, 5.5], [349.23, 5.75],
+                [329.63, 6], [392.00, 6.25], [493.88, 6.5], [523.25, 6.75],
+                [493.88, 7], [440.00, 7.25], [392.00, 7.5], [349.23, 7.75]
+            ];
+            arpNotes.forEach(([freq, time]) => {
+                playNote(freq, now + time * beat, beat * 0.22, 'sine', 0.08);
+            });
+
+            const padChords = [
+                [261.63, 0, 2], [329.63, 0, 2], [392.00, 0, 2],
+                [293.66, 2, 2], [349.23, 2, 2], [440.00, 2, 2],
+                [261.63, 4, 2], [329.63, 4, 2], [392.00, 4, 2],
+                [246.94, 6, 2], [311.13, 6, 2], [369.99, 6, 2]
+            ];
+            padChords.forEach(([freq, time, dur]) => {
+                playNote(freq, now + time * beat, dur * beat, 'sine', 0.04);
+            });
+
+            for (let i = 0; i < 16; i++) {
+                playNote(800, now + i * beat * 0.5, 0.03, 'square', 0.02);
+            }
+        }
+
+        function toggleMusic() {
+            const btn = document.getElementById('musicToggle');
+            if (musicPlaying) {
+                clearInterval(musicInterval);
+                if (musicGain) musicGain.gain.linearRampToValueAtTime(0, audioCtx.currentTime + 0.5);
+                musicPlaying = false;
+                btn.textContent = '🔇';
+                btn.title = 'Attiva Musica';
+            } else {
+                if (!audioCtx) createMusicContext();
+                if (audioCtx.state === 'suspended') audioCtx.resume();
+                musicGain.gain.value = 0.15;
+                playThemeLoop();
+                musicInterval = setInterval(playThemeLoop, 4800);
+                musicPlaying = true;
+                btn.textContent = '🔊';
+                btn.title = 'Disattiva Musica';
+            }
         }
     </script>
+
+    <style>
+        .music-toggle-btn {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            border: 2px solid rgba(255, 215, 0, 0.6);
+            background: rgba(13, 20, 66, 0.85);
+            color: white;
+            font-size: 1.6rem;
+            cursor: pointer;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4), 0 0 20px rgba(255, 215, 0, 0.15);
+            transition: all 0.3s ease;
+        }
+        .music-toggle-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5), 0 0 30px rgba(255, 215, 0, 0.3);
+            border-color: rgba(255, 215, 0, 0.9);
+        }
+    </style>
 </body>
 </html>
