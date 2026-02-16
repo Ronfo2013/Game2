@@ -214,9 +214,10 @@
             const gain = audioCtx.createGain();
             osc.type = type;
             osc.frequency.value = freq;
+            const fadeTime = Math.min(0.05, duration * 0.3);
             gain.gain.setValueAtTime(0, startTime);
-            gain.gain.linearRampToValueAtTime(volume, startTime + 0.05);
-            gain.gain.setValueAtTime(volume, startTime + duration - 0.1);
+            gain.gain.linearRampToValueAtTime(volume, startTime + fadeTime);
+            gain.gain.setValueAtTime(volume, startTime + duration - fadeTime);
             gain.gain.linearRampToValueAtTime(0, startTime + duration);
             osc.connect(gain);
             gain.connect(musicGain);
