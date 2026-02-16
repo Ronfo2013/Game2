@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classifica - Chi vuol essere milionario?</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .records-container {
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 40px;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .records-title {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #ffd700;
+            margin-bottom: 40px;
+            text-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+        }
+        
+        .records-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+        }
+        
+        .records-table thead {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .records-table th {
+            padding: 15px;
+            color: #ffd700;
+            font-weight: bold;
+            text-align: left;
+            font-size: 1.1rem;
+        }
+        
+        .records-table td {
+            padding: 15px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .records-table tbody tr {
+            transition: all 0.3s ease;
+        }
+        
+        .records-table tbody tr:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+        
+        .rank {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #ffd700;
+            text-align: center;
+        }
+        
+        .rank-1 { color: #FFD700; }
+        .rank-2 { color: #C0C0C0; }
+        .rank-3 { color: #CD7F32; }
+        
+        .player-name {
+            font-weight: bold;
+            color: #4a90e2;
+        }
+        
+        .score {
+            font-size: 1.2rem;
+            color: #00ff00;
+            font-weight: bold;
+        }
+        
+        .difficulty {
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+        
+        .difficulty.easy {
+            background: #27ae60;
+            color: white;
+        }
+        
+        .difficulty.medium {
+            background: #f39c12;
+            color: white;
+        }
+        
+        .difficulty.hard {
+            background: #e74c3c;
+            color: white;
+        }
+        
+        .difficulty.expert {
+            background: #8e44ad;
+            color: white;
+        }
+        
+        .no-records {
+            text-align: center;
+            padding: 50px;
+            font-size: 1.3rem;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        
+        .actions {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        
+        .btn {
+            padding: 15px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+        }
+        
+        .btn-danger {
+            background: linear-gradient(135deg, #c0392b 0%, #e74c3c 100%);
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .stat-card {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+        }
+        
+        .stat-value {
+            font-size: 2rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        
+        .stat-label {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="records-container">
+        <h1 class="records-title">🏆 Classifica Top 10</h1>
+        
+        <div class="stats-grid" id="statsGrid">
+            <!-- Le statistiche verranno inserite qui dinamicamente -->
+        </div>
+        
+        <div id="recordsTableContainer">
+            <!-- La tabella verrà inserita qui dinamicamente -->
+        </div>
+        
+        <div class="actions">
+            <a href="index.html" class="btn">← Torna al Menu</a>
+            <button onclick="clearRecords()" class="btn btn-danger">🗑️ Cancella Classifica</button>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+    <script>
+        function displayRecords() {
+            const records = getRecords();
+            const container = document.getElementById('recordsTableContainer');
+            
+            if (records.length === 0) {
+                container.innerHTML = '<div class="no-records">Nessun record ancora. Inizia a giocare per entrare in classifica!</div>';
+                return;
+            }
+            
+            let tableHTML = `
+                <table class="records-table">
+                    <thead>
+                        <tr>
+                            <th style="text-align: center; width: 80px;">Pos.</th>
+                            <th>Giocatore</th>
+                            <th>Punteggio</th>
+                            <th style="text-align: center;">Domande</th>
+                            <th style="text-align: center;">Difficoltà</th>
+                            <th>Data</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+            
+            records.forEach((record, index) => {
+                const rankClass = index === 0 ? 'rank-1' : index === 1 ? 'rank-2' : index === 2 ? 'rank-3' : '';
+                const trophy = index === 0 ? '🥇' : index === 1 ? '🥈' : index === 2 ? '🥉' : '';
+                
+                tableHTML += `
+                    <tr>
+                        <td class="rank ${rankClass}">${trophy} ${index + 1}</td>
+                        <td class="player-name">${record.playerName}</td>
+                        <td class="score">${formatCurrency(record.score)}</td>
+                        <td style="text-align: center;">${record.questionsAnswered}/${record.totalQuestions}</td>
+                        <td style="text-align: center;">
+                            <span class="difficulty ${record.difficulty}">
+                                ${getDifficultyLabel(record.difficulty)}
+                            </span>
+                        </td>
+                        <td style="font-size: 0.9rem; color: rgba(255,255,255,0.7);">
+                            ${formatDate(record.date)}
+                        </td>
+                    </tr>
+                `;
+            });
+            
+            tableHTML += '</tbody></table>';
+            container.innerHTML = tableHTML;
+            
+            // Mostra statistiche
+            displayStats(records);
+        }
+        
+        function displayStats(records) {
+            const statsGrid = document.getElementById('statsGrid');
+            
+            if (records.length === 0) {
+                statsGrid.style.display = 'none';
+                return;
+            }
+            
+            const totalGames = records.length;
+            const highestScore = Math.max(...records.map(r => r.score));
+            const avgScore = records.reduce((sum, r) => sum + r.score, 0) / totalGames;
+            const millionaires = records.filter(r => r.score >= 1000000).length;
+            
+            statsGrid.innerHTML = `
+                <div class="stat-card">
+                    <div class="stat-label">Partite Giocate</div>
+                    <div class="stat-value">${totalGames}</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Punteggio Massimo</div>
+                    <div class="stat-value">${formatCurrency(highestScore)}</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Media Punteggio</div>
+                    <div class="stat-value">${formatCurrency(Math.round(avgScore))}</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Milionari</div>
+                    <div class="stat-value">${millionaires}</div>
+                </div>
+            `;
+        }
+        
+        function getDifficultyLabel(difficulty) {
+            const labels = {
+                'easy': 'Facile',
+                'medium': 'Medio',
+                'hard': 'Difficile',
+                'expert': 'Esperto'
+            };
+            return labels[difficulty] || 'Medio';
+        }
+        
+        function clearRecords() {
+            if (confirm('Sei sicuro di voler cancellare tutta la classifica? Questa azione non può essere annullata!')) {
+                localStorage.removeItem('gameRecords');
+                displayRecords();
+                alert('Classifica cancellata con successo!');
+            }
+        }
+        
+        // Carica i record quando la pagina è pronta
+        document.addEventListener('DOMContentLoaded', function() {
+            displayRecords();
+        });
+    </script>
+</body>
+</html>

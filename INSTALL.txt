@@ -1,0 +1,132 @@
+========================================
+CHI VUOLE ESSERE IL DOGE? - INSTALLAZIONE
+========================================
+
+⚡ ZERO CONFIGURAZIONE RICHIESTA! ⚡
+
+========================================
+REQUISITI
+========================================
+
+✅ Hosting con PHP (es. IONOS, Aruba)
+✅ NO database necessario
+✅ Spazio web: ~3 MB
+
+========================================
+INSTALLAZIONE RAPIDA (5 MINUTI)
+========================================
+
+1. SCARICA
+   - Estrai il file ZIP
+
+2. CARICA SU HOSTING
+   Via FTP o File Manager, carica TUTTO:
+   
+   /tuosito.com/
+   ├── index.html
+   ├── game.html
+   ├── help.html
+   ├── records.html
+   ├── logo.png
+   ├── config.js
+   ├── main.js
+   ├── controllers.js
+   ├── style.css
+   ├── questions.json
+   ├── api_leaderboard.php
+   └── data/
+       ├── .htaccess
+       └── leaderboard.json
+
+3. VERIFICA PERMESSI
+   La cartella data/ deve essere scrivibile:
+   - Cartella data: 755 o 775
+   - File leaderboard.json: 666
+
+   Su IONOS:
+   - Di solito funziona senza toccare niente
+   - Se la classifica non si salva, vai su
+     File Manager > data/ > Permessi
+
+4. APRI NEL BROWSER
+   https://tuosito.com/index.html
+
+5. FINE! 🎉
+
+========================================
+VERIFICA INSTALLAZIONE
+========================================
+
+✅ Vedi il logo Caffè dell'Angolo
+✅ Puoi avviare un gioco
+✅ Riesci a rispondere alle domande
+✅ La classifica si salva (prova con un nome)
+
+========================================
+GUIDA RAPIDA IONOS
+========================================
+
+1. Pannello IONOS > Hosting > Gestisci
+2. File Manager
+3. Entra in htdocs o public_html
+4. Carica tutti i file qui
+5. Fine!
+
+========================================
+PERSONALIZZAZIONE (OPZIONALE)
+========================================
+
+Cambia Logo:
+- Sostituisci logo.png
+
+Cambia Colori:
+- Modifica config.js > THEME.colors
+
+Modifica Domande:
+- Modifica questions.json
+  
+Cambia Premi:
+- Modifica config.js > PRIZES
+
+Resetta Classifica:
+- Svuota data/leaderboard.json
+  Lascia solo: []
+
+========================================
+PROBLEMI COMUNI
+========================================
+
+❌ Classifica non si salva
+   → Verifica permessi data/ e leaderboard.json
+   → Su IONOS: File Manager > Seleziona data/ > Permessi > 755
+
+❌ Logo non appare
+   → Verifica che logo.png sia nella stessa cartella di index.html
+
+❌ Pagina bianca
+   → Console browser (F12) > Controlla errori JavaScript
+   → Verifica che tutti i file siano stati caricati
+
+❌ "File not found"
+   → Controlla path dei file
+   → Assicurati di essere in htdocs/public_html
+
+========================================
+SUPPORTO
+========================================
+
+📧 Email: info@caffedellangolo.it
+🌐 Web: www.caffedellangolo.it
+
+========================================
+VERSION 2.0 - ZERO CONFIG EDITION
+========================================
+
+✨ Nessun database
+✨ Nessuna configurazione
+✨ Funziona subito
+✨ Classifica condivisa
+✨ 200 domande incluse
+✨ Pronto per eventi
+
+Buon divertimento! 🦁🍷

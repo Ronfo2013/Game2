@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Come si Gioca - Chi vuol essere milionario?</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .help-container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 40px;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .help-title {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #ffd700;
+            margin-bottom: 40px;
+            text-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+        }
+        
+        .help-section {
+            margin-bottom: 30px;
+        }
+        
+        .help-section h2 {
+            color: #ffd700;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #ffd700;
+            padding-bottom: 10px;
+        }
+        
+        .help-section h3 {
+            color: #4a90e2;
+            font-size: 1.3rem;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .help-section p {
+            line-height: 1.8;
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+        }
+        
+        .help-section ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .help-section li {
+            padding: 10px 0;
+            padding-left: 30px;
+            position: relative;
+            line-height: 1.6;
+        }
+        
+        .help-section li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #00ff00;
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+        
+        .prize-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        .prize-table th,
+        .prize-table td {
+            padding: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            text-align: center;
+        }
+        
+        .prize-table th {
+            background: rgba(255, 215, 0, 0.3);
+            color: #ffd700;
+            font-weight: bold;
+        }
+        
+        .prize-table tr.safe-haven {
+            background: rgba(46, 204, 113, 0.2);
+            font-weight: bold;
+        }
+        
+        .lifeline-box {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .lifeline-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+        }
+        
+        .lifeline-card h4 {
+            color: #ffd700;
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+        }
+        
+        .lifeline-icon-big {
+            font-size: 3rem;
+            margin: 10px 0;
+        }
+        
+        .back-btn {
+            display: block;
+            width: 200px;
+            margin: 40px auto 0;
+            padding: 15px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+        }
+        
+        .back-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="help-container">
+        <h1 class="help-title">❓ Come si Gioca</h1>
+        
+        <div class="help-section">
+            <h2>🎯 Obiettivo del Gioco</h2>
+            <p>
+                L'obiettivo di "Chi vuol essere milionario?" è rispondere correttamente a 15 domande 
+                di difficoltà crescente per vincere il premio massimo di <strong>€1.000.000</strong>!
+            </p>
+        </div>
+        
+        <div class="help-section">
+            <h2>📚 Regole del Gioco</h2>
+            <ul>
+                <li>Rispondi a 15 domande a scelta multipla (A, B, C, D)</li>
+                <li>Ogni domanda ha un limite di tempo di 30 secondi</li>
+                <li>Una risposta sbagliata termina il gioco</li>
+                <li>Puoi ritirarti in qualsiasi momento e portare a casa il premio attuale</li>
+                <li>Ci sono 2 "soglie di sicurezza" (€1.000 e €32.000)</li>
+            </ul>
+        </div>
+        
+        <div class="help-section">
+            <h2>💰 Scala Premi</h2>
+            <table class="prize-table">
+                <thead>
+                    <tr>
+                        <th>Domanda</th>
+                        <th>Premio</th>
+                        <th>Note</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>15</td>
+                        <td>€1.000.000</td>
+                        <td>🏆 Premio Massimo</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>€500.000</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>€250.000</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>€125.000</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>€64.000</td>
+                        <td></td>
+                    </tr>
+                    <tr class="safe-haven">
+                        <td>10</td>
+                        <td>€32.000</td>
+                        <td>⭐ Soglia di Sicurezza</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>€16.000</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>€8.000</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>€4.000</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>€2.000</td>
+                        <td></td>
+                    </tr>
+                    <tr class="safe-haven">
+                        <td>5</td>
+                        <td>€1.000</td>
+                        <td>⭐ Soglia di Sicurezza</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>€500</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>€300</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>€200</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>€100</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="help-section">
+            <h2>🆘 Gli Aiuti (Lifelines)</h2>
+            <p>Hai a disposizione 3 aiuti che puoi usare una sola volta durante il gioco:</p>
+            
+            <div class="lifeline-box">
+                <div class="lifeline-card">
+                    <div class="lifeline-icon-big">50:50</div>
+                    <h4>50/50</h4>
+                    <p>
+                        Elimina due risposte sbagliate, lasciando solo la risposta corretta 
+                        e una sbagliata.
+                    </p>
+                </div>
+                
+                <div class="lifeline-card">
+                    <div class="lifeline-icon-big">👥</div>
+                    <h4>Aiuto del Pubblico</h4>
+                    <p>
+                        Il pubblico in studio vota per quella che ritiene sia la risposta corretta. 
+                        Vedrai le percentuali di voto.
+                    </p>
+                </div>
+                
+                <div class="lifeline-card">
+                    <div class="lifeline-icon-big">📞</div>
+                    <h4>Telefonata all'Amico</h4>
+                    <p>
+                        Chiami un amico esperto che ti darà un suggerimento sulla risposta 
+                        che ritiene corretta.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="help-section">
+            <h2>⚠️ Soglie di Sicurezza</h2>
+            <p>
+                Le soglie di sicurezza sono premi garantiti. Se sbagli dopo averle superate, 
+                porti comunque a casa l'importo dell'ultima soglia raggiunta:
+            </p>
+            <ul>
+                <li><strong>Prima soglia:</strong> €1.000 (domanda 5)</li>
+                <li><strong>Seconda soglia:</strong> €32.000 (domanda 10)</li>
+            </ul>
+        </div>
+        
+        <div class="help-section">
+            <h2>💡 Consigli Strategici</h2>
+            <ul>
+                <li>Usa gli aiuti con saggezza - una volta usati, non li riavrai!</li>
+                <li>Se non sei sicuro, considera di ritirarti piuttosto che rischiare</li>
+                <li>Cerca di raggiungere almeno la prima soglia di sicurezza (€1.000)</li>
+                <li>Gestisci bene il tempo - hai solo 30 secondi per risposta</li>
+                <li>L'aiuto del pubblico è solitamente affidabile nelle domande facili</li>
+            </ul>
+        </div>
+        
+        <div class="help-section">
+            <h2>🎮 Controlli</h2>
+            <p>
+                Puoi giocare usando il mouse, touchscreen, o la tastiera:
+            </p>
+            <ul>
+                <li><strong>Mouse/Touch:</strong> Clicca sulla risposta che vuoi selezionare</li>
+                <li><strong>Tastiera:</strong> Usa i tasti A, B, C, D per selezionare le risposte</li>
+            </ul>
+        </div>
+        
+        <a href="index.html" class="back-btn">← Torna al Menu</a>
+    </div>
+</body>
+</html>

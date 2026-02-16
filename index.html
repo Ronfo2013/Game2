@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi vuole essere Il Doge? - Caffè dell'Angolo Edition</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .logo-image {
+            max-width: 300px;
+            margin: 20px auto;
+            display: block;
+            animation: fadeIn 1.5s ease;
+            filter: drop-shadow(0 10px 30px rgba(255, 215, 0, 0.3));
+        }
+        
+        .venice-pattern {
+            background: repeating-linear-gradient(
+                45deg,
+                rgba(139, 0, 0, 0.1),
+                rgba(139, 0, 0, 0.1) 10px,
+                rgba(218, 165, 32, 0.1) 10px,
+                rgba(218, 165, 32, 0.1) 20px
+            );
+        }
+    </style>
+</head>
+<body class="venice-pattern">
+    <div class="main-menu">
+        <div class="logo-container">
+            <img src="logo.png" alt="Caffè dell'Angolo" class="logo-image" id="cafeLogoImg">
+            <h1 class="main-title doge-title">CHI VUOLE ESSERE IL DOGE?</h1>
+            <p class="subtitle">Caffè dell'Angolo - Portogruaro Edition</p>
+            <p class="subtitle-small">🦁 La Storia di Portogruaro in un Quiz 🦁</p>
+        </div>
+        
+        <div class="menu-container">
+            <button class="menu-btn venice-btn" onclick="startGame()">
+                <span class="btn-icon">🎮</span>
+                GIOCA ORA
+            </button>
+            
+            <button class="menu-btn venice-btn" onclick="viewRecords()">
+                <span class="btn-icon">🏆</span>
+                CLASSIFICA GLOBALE
+            </button>
+            
+            <button class="menu-btn venice-btn" onclick="viewHelp()">
+                <span class="btn-icon">❓</span>
+                COME SI GIOCA
+            </button>
+            
+            <button class="menu-btn venice-btn" onclick="viewSettings()">
+                <span class="btn-icon">⚙️</span>
+                IMPOSTAZIONI
+            </button>
+            
+            <button class="menu-btn venice-btn" onclick="viewAbout()">
+                <span class="btn-icon">📜</span>
+                STORIA DI PORTOGRUARO
+            </button>
+        </div>
+        
+        <div class="footer-info">
+            <p>🦁 Una produzione Caffè dell'Angolo - Portogruaro 🦁</p>
+            <p style="font-size: 0.8rem; margin-top: 10px;">
+                Domande sulla storia di Portogruaro, dal 1140 ai giorni nostri
+            </p>
+        </div>
+    </div>
+    
+    <!-- Modal Impostazioni -->
+    <div id="settingsModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeSettings()">&times;</span>
+            <h2>⚙️ Impostazioni</h2>
+            
+            <div class="settings-section">
+                <label for="playerName">Il Tuo Nome:</label>
+                <input type="text" id="playerName" placeholder="Inserisci il tuo nome">
+            </div>
+            
+            <div class="settings-section">
+                <label for="difficulty">Difficoltà:</label>
+                <select id="difficulty">
+                    <option value="easy">Facile - Per principianti</option>
+                    <option value="medium" selected>Medio - Conoscenza base</option>
+                    <option value="hard">Difficile - Esperti di storia</option>
+                    <option value="expert">Esperto - Vero Portogruarese</option>
+                </select>
+            </div>
+            
+            <div class="settings-section">
+                <label for="questionCategory">Categoria Domande:</label>
+                <select id="questionCategory">
+                    <option value="all" selected>Tutte le epoche</option>
+                    <option value="medioevo">Medioevo (1140-1420)</option>
+                    <option value="venezia">Periodo Veneziano (1420-1797)</option>
+                    <option value="austria">Periodo Austriaco (1797-1866)</option>
+                    <option value="italia">Regno d'Italia (1866-oggi)</option>
+                    <option value="personaggi">Personaggi illustri</option>
+                    <option value="monumenti">Monumenti e luoghi</option>
+                    <option value="cultura">Arte e cultura</option>
+                </select>
+            </div>
+            
+            <div class="settings-section">
+                <label>
+                    <input type="checkbox" id="soundEnabled" checked>
+                    Effetti sonori
+                </label>
+            </div>
+            
+            <button class="menu-btn venice-btn" onclick="saveSettings()">Salva Impostazioni</button>
+        </div>
+    </div>
+
+    <!-- Modal About -->
+    <div id="aboutModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeAbout()">&times;</span>
+            <h2>📜 La Storia di Portogruaro</h2>
+            
+            <div class="history-content">
+                <h3>🏛️ Le Origini (1140)</h3>
+                <p>
+                    Il 10 gennaio 1140, il vescovo di Concordia Gervino concede ad alcuni mercanti
+                    (portolani) un terreno lungo il fiume Lemene per costruire un porto, case e magazzini.
+                    Nasce così Portogruaro.
+                </p>
+                
+                <h3>🦁 L'Era Veneziana (1420-1797)</h3>
+                <p>
+                    Nel 1420 Portogruaro entra a far parte della Serenissima Repubblica di Venezia,
+                    vivendo il suo periodo di massimo splendore. La città si arricchisce grazie ai
+                    commerci sul Lemene e diventa una "piccola Venezia" con magnifici palazzi gotici
+                    e rinascimentali.
+                </p>
+                
+                <h3>🎨 Personaggi Illustri</h3>
+                <p>
+                    <strong>Luigi Russolo</strong> (1885-1947) - Futurista, inventore degli Intonarumori,
+                    pioniere della musica elettronica.<br>
+                    <strong>Lorenzo Da Ponte</strong> (1749-1838) - Librettista di Mozart, ordinato prete
+                    a Portogruaro nel 1773, autore dei testi di "Le Nozze di Figaro", "Don Giovanni" e
+                    "Così fan tutte".
+                </p>
+                
+                <h3>🏰 Monumenti Iconici</h3>
+                <p>
+                    <strong>Il Pozzo delle Due Gru</strong> - Simbolo della città<br>
+                    <strong>Palazzo Municipale</strong> - Edificio gotico del 1265<br>
+                    <strong>Il Campanile Pendente</strong> - 59 metri di altezza<br>
+                    <strong>I Mulini sul Lemene</strong> - Testimoni del passato industriale
+                </p>
+            </div>
+            
+            <button class="menu-btn venice-btn" onclick="closeAbout()">Chiudi</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script>
+        function viewAbout() {
+            document.getElementById('aboutModal').classList.add('show');
+        }
+        
+        function closeAbout() {
+            document.getElementById('aboutModal').classList.remove('show');
+        }
+    </script>
+</body>
+</html>

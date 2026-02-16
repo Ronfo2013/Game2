@@ -1,0 +1,2604 @@
+{
+  "questions": [
+    {
+      "question": "In che anno fu fondata ufficialmente Portogruaro?",
+      "answers": {
+        "A": "1120",
+        "B": "1140",
+        "C": "1160",
+        "D": "1180"
+      },
+      "correct": "B",
+      "category": "medioevo",
+      "difficulty": "easy",
+      "epoch": "Fondazione"
+    },
+    {
+      "question": "Chi concesse il terreno per la fondazione di Portogruaro?",
+      "answers": {
+        "A": "Il Doge di Venezia",
+        "B": "Il Re d'Italia",
+        "C": "Il Vescovo Gervino di Concordia",
+        "D": "L'Imperatore"
+      },
+      "correct": "C",
+      "category": "medioevo",
+      "difficulty": "medium",
+      "epoch": "Fondazione"
+    },
+    {
+      "question": "Quale fiume scorre attraverso Portogruaro?",
+      "answers": {
+        "A": "Po",
+        "B": "Lemene",
+        "C": "Piave",
+        "D": "Tagliamento"
+      },
+      "correct": "B",
+      "category": "geografia",
+      "difficulty": "easy",
+      "epoch": "Geografia"
+    },
+    {
+      "question": "A chi fu concesso il terreno nel 1140?",
+      "answers": {
+        "A": "Ai pescatori",
+        "B": "Ai portolani e mercanti",
+        "C": "Ai nobili veneziani",
+        "D": "Ai monaci"
+      },
+      "correct": "B",
+      "category": "medioevo",
+      "difficulty": "medium",
+      "epoch": "Fondazione"
+    },
+    {
+      "question": "Qual è il monumento medievale più importante di Portogruaro?",
+      "answers": {
+        "A": "La Torre dell'Orologio",
+        "B": "Il Duomo",
+        "C": "Il Pozzo delle Due Gru",
+        "D": "Il Castello"
+      },
+      "correct": "C",
+      "category": "monumenti",
+      "difficulty": "easy",
+      "epoch": "Monumenti"
+    },
+    {
+      "question": "In che anno fu costruito il Palazzo Municipale di Portogruaro?",
+      "answers": {
+        "A": "1245",
+        "B": "1265",
+        "C": "1285",
+        "D": "1305"
+      },
+      "correct": "B",
+      "category": "monumenti",
+      "difficulty": "hard",
+      "epoch": "Monumenti"
+    },
+    {
+      "question": "Quale importante città romana si trovava vicino a Portogruaro?",
+      "answers": {
+        "A": "Aquileia",
+        "B": "Padova",
+        "C": "Concordia Sagittaria",
+        "D": "Altino"
+      },
+      "correct": "C",
+      "category": "storia",
+      "difficulty": "medium",
+      "epoch": "Origini"
+    },
+    {
+      "question": "Prima del 1420, Portogruaro faceva parte di:",
+      "answers": {
+        "A": "Repubblica di Venezia",
+        "B": "Regno d'Italia",
+        "C": "Patria del Friuli",
+        "D": "Impero Bizantino"
+      },
+      "correct": "C",
+      "category": "medioevo",
+      "difficulty": "medium",
+      "epoch": "Medioevo"
+    },
+    {
+      "question": "Lo stile architettonico del Palazzo Municipale è:",
+      "answers": {
+        "A": "Romanico",
+        "B": "Gotico",
+        "C": "Rinascimentale",
+        "D": "Barocco"
+      },
+      "correct": "B",
+      "category": "monumenti",
+      "difficulty": "medium",
+      "epoch": "Monumenti"
+    },
+    {
+      "question": "Il Palazzo Municipale ha una merlatura di tipo:",
+      "answers": {
+        "A": "Guelfa",
+        "B": "Ghibellina",
+        "C": "Veneziana",
+        "D": "Normanna"
+      },
+      "correct": "B",
+      "category": "monumenti",
+      "difficulty": "hard",
+      "epoch": "Monumenti"
+    },
+    {
+      "question": "In che anno Portogruaro entrò a far parte della Repubblica di Venezia?",
+      "answers": {
+        "A": "1400",
+        "B": "1420",
+        "C": "1440",
+        "D": "1460"
+      },
+      "correct": "B",
+      "category": "venezia",
+      "difficulty": "easy",
+      "epoch": "Venezia"
+    },
+    {
+      "question": "Portogruaro è spesso chiamata:",
+      "answers": {
+        "A": "La piccola Roma",
+        "B": "La piccola Firenze",
+        "C": "La piccola Venezia",
+        "D": "La piccola Milano"
+      },
+      "correct": "C",
+      "category": "venezia",
+      "difficulty": "easy",
+      "epoch": "Venezia"
+    },
+    {
+      "question": "Chi era Lorenzo Da Ponte?",
+      "answers": {
+        "A": "Un pittore",
+        "B": "Il librettista di Mozart",
+        "C": "Un doge",
+        "D": "Un architetto"
+      },
+      "correct": "B",
+      "category": "personaggi",
+      "difficulty": "easy",
+      "epoch": "Personaggi"
+    },
+    {
+      "question": "In che anno Lorenzo Da Ponte fu ordinato prete a Portogruaro?",
+      "answers": {
+        "A": "1763",
+        "B": "1770",
+        "C": "1773",
+        "D": "1780"
+      },
+      "correct": "C",
+      "category": "personaggi",
+      "difficulty": "hard",
+      "epoch": "Personaggi"
+    },
+    {
+      "question": "Lorenzo Da Ponte studiò al seminario di Portogruaro e divenne:",
+      "answers": {
+        "A": "Rettore",
+        "B": "Professore di Letteratura",
+        "C": "Vescovo",
+        "D": "Canonico"
+      },
+      "correct": "B",
+      "category": "personaggi",
+      "difficulty": "medium",
+      "epoch": "Personaggi"
+    },
+    {
+      "question": "Quale di queste opere NON fu scritta da Da Ponte per Mozart?",
+      "answers": {
+        "A": "Le Nozze di Figaro",
+        "B": "Don Giovanni",
+        "C": "Così fan tutte",
+        "D": "Il Flauto Magico"
+      },
+      "correct": "D",
+      "category": "cultura",
+      "difficulty": "medium",
+      "epoch": "Cultura"
+    },
+    {
+      "question": "Durante il periodo veneziano, Portogruaro divenne importante per:",
+      "answers": {
+        "A": "L'agricoltura",
+        "B": "I commerci via fiume",
+        "C": "La pesca",
+        "D": "Le miniere"
+      },
+      "correct": "B",
+      "category": "venezia",
+      "difficulty": "medium",
+      "epoch": "Venezia"
+    },
+    {
+      "question": "I palazzi gotici di Portogruaro risalgono ai secoli:",
+      "answers": {
+        "A": "XIII-XIV",
+        "B": "XIV-XV",
+        "C": "XV-XVI",
+        "D": "XVI-XVII"
+      },
+      "correct": "C",
+      "category": "monumenti",
+      "difficulty": "hard",
+      "epoch": "Monumenti"
+    },
+    {
+      "question": "Il fiume Lemene collegava Portogruaro con:",
+      "answers": {
+        "A": "Trieste",
+        "B": "Venezia",
+        "C": "Padova",
+        "D": "Udine"
+      },
+      "correct": "B",
+      "category": "venezia",
+      "difficulty": "medium",
+      "epoch": "Venezia"
+    },
+    {
+      "question": "Quanti secoli Portogruaro rimase sotto Venezia?",
+      "answers": {
+        "A": "2 secoli",
+        "B": "3 secoli",
+        "C": "4 secoli",
+        "D": "5 secoli"
+      },
+      "correct": "B",
+      "category": "venezia",
+      "difficulty": "medium",
+      "epoch": "Venezia"
+    },
+    {
+      "question": "Con quale trattato Napoleone cedette il Veneto all'Austria?",
+      "answers": {
+        "A": "Trattato di Vienna",
+        "B": "Trattato di Campoformio",
+        "C": "Trattato di Parigi",
+        "D": "Trattato di Versailles"
+      },
+      "correct": "B",
+      "category": "austria",
+      "difficulty": "medium",
+      "epoch": "Austria"
+    },
+    {
+      "question": "In che anno cadde la Repubblica di Venezia?",
+      "answers": {
+        "A": "1789",
+        "B": "1795",
+        "C": "1797",
+        "D": "1799"
+      },
+      "correct": "C",
+      "category": "venezia",
+      "difficulty": "medium",
+      "epoch": "Fine Venezia"
+    },
+    {
+      "question": "Nel 1848, Portogruaro partecipò a:",
+      "answers": {
+        "A": "Moti carbonari",
+        "B": "Moti risorgimentali",
+        "C": "Prima Guerra Mondiale",
+        "D": "Congresso di Vienna"
+      },
+      "correct": "B",
+      "category": "austria",
+      "difficulty": "hard",
+      "epoch": "Risorgimento"
+    },
+    {
+      "question": "Quanto durò la dominazione austriaca su Portogruaro?",
+      "answers": {
+        "A": "50 anni",
+        "B": "69 anni",
+        "C": "80 anni",
+        "D": "100 anni"
+      },
+      "correct": "B",
+      "category": "austria",
+      "difficulty": "hard",
+      "epoch": "Austria"
+    },
+    {
+      "question": "In che anno Portogruaro entrò a far parte del Regno d'Italia?",
+      "answers": {
+        "A": "1859",
+        "B": "1861",
+        "C": "1866",
+        "D": "1870"
+      },
+      "correct": "C",
+      "category": "italia",
+      "difficulty": "medium",
+      "epoch": "Regno d'Italia"
+    },
+    {
+      "question": "Luigi Russolo nacque a Portogruaro nel:",
+      "answers": {
+        "A": "1875",
+        "B": "1885",
+        "C": "1895",
+        "D": "1905"
+      },
+      "correct": "B",
+      "category": "personaggi",
+      "difficulty": "medium",
+      "epoch": "Personaggi"
+    },
+    {
+      "question": "Luigi Russolo è famoso per aver inventato:",
+      "answers": {
+        "A": "Il pianoforte",
+        "B": "Gli Intonarumori",
+        "C": "Il grammofono",
+        "D": "La radio"
+      },
+      "correct": "B",
+      "category": "personaggi",
+      "difficulty": "easy",
+      "epoch": "Personaggi"
+    },
+    {
+      "question": "Luigi Russolo faceva parte del movimento:",
+      "answers": {
+        "A": "Impressionista",
+        "B": "Cubista",
+        "C": "Futurista",
+        "D": "Surrealista"
+      },
+      "correct": "C",
+      "category": "cultura",
+      "difficulty": "easy",
+      "epoch": "Cultura"
+    },
+    {
+      "question": "Gli Intonarumori erano:",
+      "answers": {
+        "A": "Dipinti",
+        "B": "Strumenti musicali",
+        "C": "Sculture",
+        "D": "Edifici"
+      },
+      "correct": "B",
+      "category": "cultura",
+      "difficulty": "easy",
+      "epoch": "Cultura"
+    },
+    {
+      "question": "Il manifesto scritto da Russolo si intitola:",
+      "answers": {
+        "A": "L'Arte dei Rumori",
+        "B": "Il Manifesto Futurista",
+        "C": "La Musica del Futuro",
+        "D": "I Suoni della Modernità"
+      },
+      "correct": "A",
+      "category": "cultura",
+      "difficulty": "medium",
+      "epoch": "Cultura"
+    },
+    {
+      "question": "In che anno fu scritto 'L'Arte dei Rumori'?",
+      "answers": {
+        "A": "1909",
+        "B": "1913",
+        "C": "1917",
+        "D": "1921"
+      },
+      "correct": "B",
+      "category": "cultura",
+      "difficulty": "hard",
+      "epoch": "Cultura"
+    },
+    {
+      "question": "Il primo concerto di Russolo con gli Intonarumori causò:",
+      "answers": {
+        "A": "Un grande successo",
+        "B": "Una rivolta del pubblico",
+        "C": "L'approvazione della critica",
+        "D": "L'indifferenza"
+      },
+      "correct": "B",
+      "category": "cultura",
+      "difficulty": "medium",
+      "epoch": "Cultura"
+    },
+    {
+      "question": "Quale teatro di Portogruaro è dedicato a Luigi Russolo?",
+      "answers": {
+        "A": "Teatro Verdi",
+        "B": "Teatro Comunale",
+        "C": "Teatro Luigi Russolo",
+        "D": "Teatro Goldoni"
+      },
+      "correct": "C",
+      "category": "monumenti",
+      "difficulty": "easy",
+      "epoch": "Monumenti"
+    },
+    {
+      "question": "Il Teatro Russolo è stato dedicato all'artista nel:",
+      "answers": {
+        "A": "1990",
+        "B": "2000",
+        "C": "2009",
+        "D": "2015"
+      },
+      "correct": "C",
+      "category": "monumenti",
+      "difficulty": "hard",
+      "epoch": "Monumenti"
+    },
+    {
+      "question": "Cosa rappresentano le due gru del pozzo simbolo di Portogruaro?",
+      "answers": {
+        "A": "Gli uccelli del fiume",
+        "B": "I due pescatori fondatori",
+        "C": "I commerci via acqua",
+        "D": "La vigilanza e la saggezza"
+      },
+      "correct": "B",
+      "category": "monumenti",
+      "difficulty": "medium",
+      "epoch": "Monumenti"
+    },
+    {
+      "question": "Chi scolpì il Pozzo delle Due Gru?",
+      "answers": {
+        "A": "Donatello",
+        "B": "Il Turchetto",
+        "C": "Canova",
+        "D": "Sansovino"
+      },
+      "correct": "B",
+      "category": "monumenti",
+      "difficulty": "hard",
+      "epoch": "Monumenti"
+    },
+    {
+      "question": "Il campanile della chiesa parrocchiale di Portogruaro è:",
+      "answers": {
+        "A": "Perfettamente verticale",
+        "B": "Pendente",
+        "C": "Crollato",
+        "D": "In restauro"
+      },
+      "correct": "B",
+      "category": "monumenti",
+      "difficulty": "medium",
+      "epoch": "Monumenti"
+    },
+    {
+      "question": "Quanti metri è alto il campanile pendente?",
+      "answers": {
+        "A": "49 metri",
+        "B": "59 metri",
+        "C": "69 metri",
+        "D": "79 metri"
+      },
+      "correct": "B",
+      "category": "monumenti",
+      "difficulty": "hard",
+      "epoch": "Monumenti"
+    },
+    {
+      "question": "L'Abbazia di Summaga risale al:",
+      "answers": {
+        "A": "IX secolo",
+        "B": "X secolo",
+        "C": "XI secolo",
+        "D": "XII secolo"
+      },
+      "correct": "C",
+      "category": "monumenti",
+      "difficulty": "hard",
+      "epoch": "Monumenti"
+    },
+    {
+      "question": "La chiesa principale di Portogruaro fu costruita nel:",
+      "answers": {
+        "A": "1111",
+        "B": "1211",
+        "C": "1311",
+        "D": "1411"
+      },
+      "correct": "B",
+      "category": "monumenti",
+      "difficulty": "hard",
+      "epoch": "Monumenti"
+    },
+    {
+      "question": "Quale antico cantiere navale si trova a Portogruaro?",
+      "answers": {
+        "A": "Cantiere Fincantieri",
+        "B": "Cantiere Azimut",
+        "C": "Cantiere Camuffo",
+        "D": "Cantiere Benetti"
+      },
+      "correct": "C",
+      "category": "industria",
+      "difficulty": "medium",
+      "epoch": "Industria"
+    },
+    {
+      "question": "Il Cantiere Camuffo fu fondato nel:",
+      "answers": {
+        "A": "1338",
+        "B": "1438",
+        "C": "1538",
+        "D": "1638"
+      },
+      "correct": "B",
+      "category": "industria",
+      "difficulty": "hard",
+      "epoch": "Industria"
+    },
+    {
+      "question": "Il Palazzo Municipale ospita opere di quale artista portogruarese?",
+      "answers": {
+        "A": "Luigi Russolo",
+        "B": "Tiziano",
+        "C": "Giorgione",
+        "D": "Tintoretto"
+      },
+      "correct": "A",
+      "category": "monumenti",
+      "difficulty": "medium",
+      "epoch": "Monumenti"
+    },
+    {
+      "question": "Quale fondazione musicale organizza concerti a Portogruaro?",
+      "answers": {
+        "A": "Fondazione Guggenheim",
+        "B": "Fondazione Santa Cecilia",
+        "C": "Fondazione Teatro alla Scala",
+        "D": "Fondazione Fenice"
+      },
+      "correct": "B",
+      "category": "cultura",
+      "difficulty": "medium",
+      "epoch": "Cultura"
+    },
+    {
+      "question": "Concordia Sagittaria produceva nell'epoca romana:",
+      "answers": {
+        "A": "Vino",
+        "B": "Tessuti",
+        "C": "Frecce e armi",
+        "D": "Ceramiche"
+      },
+      "correct": "C",
+      "category": "storia",
+      "difficulty": "medium",
+      "epoch": "Origini Romane"
+    },
+    {
+      "question": "Il nome 'Sagittaria' di Concordia deriva da:",
+      "answers": {
+        "A": "Sagittario (costellazione)",
+        "B": "Sagitta (freccia)",
+        "C": "Un santo",
+        "D": "Un fiume"
+      },
+      "correct": "B",
+      "category": "storia",
+      "difficulty": "medium",
+      "epoch": "Origini Romane"
+    },
+    {
+      "question": "Quale vino famoso si produce nella zona di Portogruaro?",
+      "answers": {
+        "A": "Prosecco",
+        "B": "Amarone",
+        "C": "Lison-Pramaggiore",
+        "D": "Soave"
+      },
+      "correct": "C",
+      "category": "enogastronomia",
+      "difficulty": "easy",
+      "epoch": "Enogastronomia"
+    },
+    {
+      "question": "Lison e Pramaggiore sono zone famose per:",
+      "answers": {
+        "A": "Il riso",
+        "B": "Il vino",
+        "C": "Il formaggio",
+        "D": "Il prosciutto"
+      },
+      "correct": "B",
+      "category": "enogastronomia",
+      "difficulty": "easy",
+      "epoch": "Enogastronomia"
+    },
+    {
+      "question": "La 'passeggiata lungo il liston' a Portogruaro è una tradizione che ricorda:",
+      "answers": {
+        "A": "Venezia",
+        "B": "Milano",
+        "C": "Parigi",
+        "D": "Vienna"
+      },
+      "correct": "A",
+      "category": "cultura",
+      "difficulty": "medium",
+      "epoch": "Tradizioni"
+    },
+    {
+      "question": "Portogruaro si trova nella provincia di:",
+      "answers": {
+        "A": "Venezia",
+        "B": "Treviso",
+        "C": "Udine",
+        "D": "Pordenone"
+      },
+      "correct": "A",
+      "category": "geografia",
+      "difficulty": "easy",
+      "epoch": "Geografia"
+    },
+    {
+      "question": "Portogruaro fa parte della regione:",
+      "answers": {
+        "A": "Friuli-Venezia Giulia",
+        "B": "Veneto",
+        "C": "Emilia-Romagna",
+        "D": "Lombardia"
+      },
+      "correct": "B",
+      "category": "geografia",
+      "difficulty": "easy",
+      "epoch": "Geografia"
+    },
+    {
+      "question": "La distanza approssimativa da Portogruaro a Venezia è:",
+      "answers": {
+        "A": "30 km",
+        "B": "50 km",
+        "C": "70 km",
+        "D": "90 km"
+      },
+      "correct": "C",
+      "category": "geografia",
+      "difficulty": "medium",
+      "epoch": "Geografia"
+    },
+    {
+      "question": "Quale città balneare famosa è vicina a Portogruaro?",
+      "answers": {
+        "A": "Jesolo",
+        "B": "Bibione",
+        "C": "Rimini",
+        "D": "Viareggio"
+      },
+      "correct": "B",
+      "category": "geografia",
+      "difficulty": "easy",
+      "epoch": "Geografia"
+    },
+    {
+      "question": "Un'altra località balneare vicina a Portogruaro è:",
+      "answers": {
+        "A": "Grado",
+        "B": "Caorle",
+        "C": "Lignano",
+        "D": "Sottomarina"
+      },
+      "correct": "B",
+      "category": "geografia",
+      "difficulty": "easy",
+      "epoch": "Geografia"
+    },
+    {
+      "question": "Il fiume Lemene è un fiume di:",
+      "answers": {
+        "A": "Alta montagna",
+        "B": "Risorgiva",
+        "C": "Glaciale",
+        "D": "Torrente"
+      },
+      "correct": "B",
+      "category": "geografia",
+      "difficulty": "hard",
+      "epoch": "Geografia"
+    },
+    {
+      "question": "La popolazione attuale di Portogruaro è circa:",
+      "answers": {
+        "A": "15.000 abitanti",
+        "B": "25.000 abitanti",
+        "C": "35.000 abitanti",
+        "D": "45.000 abitanti"
+      },
+      "correct": "B",
+      "category": "geografia",
+      "difficulty": "medium",
+      "epoch": "Geografia"
+    },
+    {
+      "question": "Portogruaro è il capoluogo del:",
+      "answers": {
+        "A": "Veneto Centrale",
+        "B": "Veneto Orientale",
+        "C": "Veneto Settentrionale",
+        "D": "Veneto Meridionale"
+      },
+      "correct": "B",
+      "category": "geografia",
+      "difficulty": "medium",
+      "epoch": "Geografia"
+    },
+    {
+      "question": "L'origine del nome 'Lemene' probabilmente deriva da:",
+      "answers": {
+        "A": "Limus (fango)",
+        "B": "Limen (confine)",
+        "C": "Legio (legione)",
+        "D": "Lux (luce)"
+      },
+      "correct": "B",
+      "category": "linguistica",
+      "difficulty": "expert",
+      "epoch": "Etimologia"
+    },
+    {
+      "question": "Chi fu il primo compositore a registrare gli Intonarumori di Russolo?",
+      "answers": {
+        "A": "Luigi Russolo stesso",
+        "B": "Antonio Russolo (il fratello)",
+        "C": "Filippo Tommaso Marinetti",
+        "D": "Igor Stravinskij"
+      },
+      "correct": "B",
+      "category": "cultura",
+      "difficulty": "expert",
+      "epoch": "Cultura"
+    },
+    {
+      "question": "Lorenzo Da Ponte emigrò in America e divenne il primo professore di italiano presso:",
+      "answers": {
+        "A": "Harvard University",
+        "B": "Yale University",
+        "C": "Columbia University",
+        "D": "Princeton University"
+      },
+      "correct": "C",
+      "category": "personaggi",
+      "difficulty": "hard",
+      "epoch": "Personaggi"
+    },
+    {
+      "question": "Il nome originale di Lorenzo Da Ponte era:",
+      "answers": {
+        "A": "Lorenzo Veneto",
+        "B": "Emanuele Conegliano",
+        "C": "Lorenzo Veneziano",
+        "D": "Emanuele Portolano"
+      },
+      "correct": "B",
+      "category": "personaggi",
+      "difficulty": "expert",
+      "epoch": "Personaggi"
+    },
+    {
+      "question": "Da Ponte si convertì dal giudaismo al cattolicesimo nel:",
+      "answers": {
+        "A": "1753",
+        "B": "1763",
+        "C": "1773",
+        "D": "1783"
+      },
+      "correct": "B",
+      "category": "personaggi",
+      "difficulty": "expert",
+      "epoch": "Personaggi"
+    },
+    {
+      "question": "Il Rumorarmonio di Russolo fu costruito nel:",
+      "answers": {
+        "A": "1918",
+        "B": "1920",
+        "C": "1922",
+        "D": "1924"
+      },
+      "correct": "C",
+      "category": "cultura",
+      "difficulty": "expert",
+      "epoch": "Cultura"
+    },
+    {
+      "question": "Quale compositore famoso partecipò al primo concerto degli Intonarumori a Parigi nel 1921?",
+      "answers": {
+        "A": "Claude Debussy",
+        "B": "Erik Satie",
+        "C": "Igor Stravinskij",
+        "D": "Arnold Schönberg"
+      },
+      "correct": "C",
+      "category": "cultura",
+      "difficulty": "expert",
+      "epoch": "Cultura"
+    },
+    {
+      "question": "Piet Mondrian scrisse positivamente sugli Intonarumori sulla rivista:",
+      "answers": {
+        "A": "Der Sturm",
+        "B": "Der Stijl",
+        "C": "Lacerba",
+        "D": "Die Brücke"
+      },
+      "correct": "B",
+      "category": "cultura",
+      "difficulty": "expert",
+      "epoch": "Cultura"
+    },
+    {
+      "question": "Durante quale invasione barbarica fu distrutta Concordia Sagittaria?",
+      "answers": {
+        "A": "Goti",
+        "B": "Longobardi",
+        "C": "Unni di Attila",
+        "D": "Vandali"
+      },
+      "correct": "C",
+      "category": "storia",
+      "difficulty": "medium",
+      "epoch": "Origini"
+    },
+    {
+      "question": "Le leggende narrano che Portogruaro fu fondata da:",
+      "answers": {
+        "A": "Mercanti veneziani",
+        "B": "Due pescatori superstiti di Concordia",
+        "C": "Monaci benedettini",
+        "D": "Soldati romani"
+      },
+      "correct": "B",
+      "category": "leggende",
+      "difficulty": "medium",
+      "epoch": "Leggende"
+    },
+    {
+      "question": "Nel Medioevo, Portogruaro aveva una forma di governo:",
+      "answers": {
+        "A": "Monarchica",
+        "B": "Comunale autonoma",
+        "C": "Feudale",
+        "D": "Teocratica"
+      },
+      "correct": "B",
+      "category": "medioevo",
+      "difficulty": "medium",
+      "epoch": "Medioevo"
+    },
+    {
+      "question": "Chi governava Portogruaro durante il periodo veneziano?",
+      "answers": {
+        "A": "Un doge locale",
+        "B": "Un podestà inviato da Venezia",
+        "C": "Il vescovo",
+        "D": "Un consiglio di mercanti"
+      },
+      "correct": "B",
+      "category": "venezia",
+      "difficulty": "medium",
+      "epoch": "Venezia"
+    },
+    {
+      "question": "Durante la Prima Guerra Mondiale, Portogruaro fu:",
+      "answers": {
+        "A": "Zona di combattimento",
+        "B": "Zona ospedaliera",
+        "C": "Zona di confine",
+        "D": "Zona neutrale"
+      },
+      "correct": "B",
+      "category": "italia",
+      "difficulty": "hard",
+      "epoch": "Grande Guerra"
+    },
+    {
+      "question": "Quale importante famiglia nobile di Portogruaro era in discordia con il vescovo Artico nel 1300?",
+      "answers": {
+        "A": "Famiglia Veniero",
+        "B": "Famiglia Squarra",
+        "C": "Famiglia Morosini",
+        "D": "Famiglia Contarini"
+      },
+      "correct": "B",
+      "category": "medioevo",
+      "difficulty": "expert",
+      "epoch": "Nobiltà"
+    },
+    {
+      "question": "Il Ponte del Rastrello fu distrutto durante:",
+      "answers": {
+        "A": "La Seconda Guerra Mondiale",
+        "B": "La Prima Guerra Mondiale",
+        "C": "L'invasione napoleonica",
+        "D": "Un terremoto"
+      },
+      "correct": "B",
+      "category": "monumenti",
+      "difficulty": "hard",
+      "epoch": "Guerra"
+    },
+    {
+      "question": "Quale generale austriaco si ritirò da Portogruaro nel 1918?",
+      "answers": {
+        "A": "L'esercito austriaco in ritirata",
+        "B": "Il Kaiser",
+        "C": "L'Arciduca",
+        "D": "Von Hindenburg"
+      },
+      "correct": "A",
+      "category": "italia",
+      "difficulty": "hard",
+      "epoch": "Grande Guerra"
+    },
+    {
+      "question": "Il sistema di vie principali di Portogruaro è organizzato su:",
+      "answers": {
+        "A": "Due assi",
+        "B": "Tre assi (due vie e il fiume)",
+        "C": "Quattro assi",
+        "D": "Sistema radiale"
+      },
+      "correct": "B",
+      "category": "urbanistica",
+      "difficulty": "medium",
+      "epoch": "Urbanistica"
+    },
+    {
+      "question": "Le case medievali di Portogruaro avevano magazzini al piano terra con:",
+      "answers": {
+        "A": "Un solo ingresso",
+        "B": "Due ingressi: uno sulla strada e uno sul fiume",
+        "C": "Tre ingressi",
+        "D": "Nessun ingresso diretto"
+      },
+      "correct": "B",
+      "category": "urbanistica",
+      "difficulty": "hard",
+      "epoch": "Urbanistica"
+    },
+    {
+      "question": "La struttura urbana di Portogruaro riflette la sua funzione originaria di:",
+      "answers": {
+        "A": "Città fortificata",
+        "B": "Porto commerciale",
+        "C": "Centro religioso",
+        "D": "Sede nobiliare"
+      },
+      "correct": "B",
+      "category": "urbanistica",
+      "difficulty": "medium",
+      "epoch": "Urbanistica"
+    },
+    {
+      "question": "Il Museo Nazionale Concordiese si trova a:",
+      "answers": {
+        "A": "Portogruaro centro",
+        "B": "Concordia Sagittaria",
+        "C": "Venezia",
+        "D": "Caorle"
+      },
+      "correct": "B",
+      "category": "cultura",
+      "difficulty": "medium",
+      "epoch": "Musei"
+    },
+    {
+      "question": "L'Abbazia di Sesto al Reghena vicino a Portogruaro è di origine:",
+      "answers": {
+        "A": "Francescana",
+        "B": "Domenicana",
+        "C": "Benedettina",
+        "D": "Agostiniana"
+      },
+      "correct": "C",
+      "category": "monumenti",
+      "difficulty": "hard",
+      "epoch": "Abbazie"
+    },
+    {
+      "question": "Il Parco dei Fiumi Lemene-Reghena è stato istituito per:",
+      "answers": {
+        "A": "Proteggere la fauna",
+        "B": "Valorizzare il territorio naturalistico",
+        "C": "Creare piste ciclabili",
+        "D": "Tutte le precedenti"
+      },
+      "correct": "D",
+      "category": "natura",
+      "difficulty": "easy",
+      "epoch": "Ambiente"
+    },
+    {
+      "question": "Quale sport ha una lunga tradizione a Portogruaro?",
+      "answers": {
+        "A": "Calcio",
+        "B": "Basket",
+        "C": "Rugby",
+        "D": "Nuoto"
+      },
+      "correct": "A",
+      "category": "sport",
+      "difficulty": "easy",
+      "epoch": "Sport"
+    },
+    {
+      "question": "La squadra di calcio locale si chiama:",
+      "answers": {
+        "A": "FC Portogruaro",
+        "B": "Calcio Portogruaro Summaga",
+        "C": "USD Portogruaro",
+        "D": "AC Portogruaro"
+      },
+      "correct": "B",
+      "category": "sport",
+      "difficulty": "medium",
+      "epoch": "Sport"
+    },
+    {
+      "question": "Il Calcio Portogruaro Summaga fu fondato nel:",
+      "answers": {
+        "A": "1980",
+        "B": "1985",
+        "C": "1990",
+        "D": "1995"
+      },
+      "correct": "C",
+      "category": "sport",
+      "difficulty": "hard",
+      "epoch": "Sport"
+    },
+    {
+      "question": "Le frazioni di Lison e Pramaggiore sono famose per la produzione di:",
+      "answers": {
+        "A": "Grappa",
+        "B": "Vini DOC",
+        "C": "Olio d'oliva",
+        "D": "Aceto balsamico"
+      },
+      "correct": "B",
+      "category": "enogastronomia",
+      "difficulty": "medium",
+      "epoch": "Enogastronomia"
+    },
+    {
+      "question": "Il clima di Portogruaro è:",
+      "answers": {
+        "A": "Mediterraneo",
+        "B": "Continentale temperato",
+        "C": "Alpino",
+        "D": "Subtropicale"
+      },
+      "correct": "B",
+      "category": "geografia",
+      "difficulty": "medium",
+      "epoch": "Geografia"
+    },
+    {
+      "question": "La principale attività economica della zona di Portogruaro oggi è:",
+      "answers": {
+        "A": "Industria pesante",
+        "B": "Pesca",
+        "C": "Agricoltura e turismo",
+        "D": "Tecnologia"
+      },
+      "correct": "C",
+      "category": "economia",
+      "difficulty": "easy",
+      "epoch": "Economia"
+    },
+    {
+      "question": "Il dialetto parlato a Portogruaro è influenzato da:",
+      "answers": {
+        "A": "Solo il veneziano",
+        "B": "Solo il friulano",
+        "C": "Veneziano e friulano",
+        "D": "Solo l'italiano"
+      },
+      "correct": "C",
+      "category": "linguistica",
+      "difficulty": "medium",
+      "epoch": "Linguistica"
+    },
+    {
+      "question": "In dialetto portogruarese, Portogruaro viene chiamato:",
+      "answers": {
+        "A": "Porto",
+        "B": "Gruaro",
+        "C": "Portu",
+        "D": "Puart"
+      },
+      "correct": "A",
+      "category": "linguistica",
+      "difficulty": "medium",
+      "epoch": "Linguistica"
+    },
+    {
+      "question": "La centuriazione romana visibile nei dintorni di Portogruaro deriva da:",
+      "answers": {
+        "A": "Aquileia",
+        "B": "Concordia Sagittaria",
+        "C": "Padova",
+        "D": "Altino"
+      },
+      "correct": "B",
+      "category": "storia",
+      "difficulty": "hard",
+      "epoch": "Romani"
+    },
+    {
+      "question": "La Via Postumia romana passava vicino a:",
+      "answers": {
+        "A": "Portogruaro",
+        "B": "Concordia Sagittaria",
+        "C": "Caorle",
+        "D": "Bibione"
+      },
+      "correct": "B",
+      "category": "storia",
+      "difficulty": "hard",
+      "epoch": "Romani"
+    },
+    {
+      "question": "Il Festival Internazionale di Musica di Portogruaro si tiene in:",
+      "answers": {
+        "A": "Primavera",
+        "B": "Estate/Autunno",
+        "C": "Inverno",
+        "D": "Tutto l'anno"
+      },
+      "correct": "B",
+      "category": "cultura",
+      "difficulty": "medium",
+      "epoch": "Cultura Contemporanea"
+    },
+    {
+      "question": "Le merci che arrivavano a Portogruaro via fiume provenivano principalmente da:",
+      "answers": {
+        "A": "Austria e Germania",
+        "B": "Francia",
+        "C": "Spagna",
+        "D": "Africa"
+      },
+      "correct": "A",
+      "category": "economia",
+      "difficulty": "medium",
+      "epoch": "Commercio"
+    },
+    {
+      "question": "I mulini sul Lemene servivano principalmente per:",
+      "answers": {
+        "A": "Macinare il grano",
+        "B": "Produrre energia",
+        "C": "Lavorare i tessuti",
+        "D": "Tutte le precedenti"
+      },
+      "correct": "D",
+      "category": "industria",
+      "difficulty": "medium",
+      "epoch": "Industria"
+    },
+    {
+      "question": "Nel Medioevo, Portogruaro commerciava principalmente:",
+      "answers": {
+        "A": "Spezie",
+        "B": "Grano e sale",
+        "C": "Seta",
+        "D": "Oro"
+      },
+      "correct": "B",
+      "category": "economia",
+      "difficulty": "medium",
+      "epoch": "Medioevo"
+    },
+    {
+      "question": "Il porto fluviale di Portogruaro era strategico perché collegava:",
+      "answers": {
+        "A": "Mare e montagna",
+        "B": "Venezia e l'entroterra austriaco",
+        "C": "Nord e sud Italia",
+        "D": "Venezia e Trieste"
+      },
+      "correct": "B",
+      "category": "venezia",
+      "difficulty": "medium",
+      "epoch": "Commercio"
+    },
+    {
+      "question": "Quale mestiere era molto diffuso a Portogruaro nel Medioevo?",
+      "answers": {
+        "A": "Pescatore",
+        "B": "Mercante",
+        "C": "Fabbro",
+        "D": "Tutti i precedenti"
+      },
+      "correct": "D",
+      "category": "medioevo",
+      "difficulty": "easy",
+      "epoch": "Medioevo"
+    },
+    {
+      "question": "Lo stile predominante dei palazzi storici di Portogruaro è:",
+      "answers": {
+        "A": "Barocco",
+        "B": "Gotico veneziano",
+        "C": "Rinascimentale",
+        "D": "Neoclassico"
+      },
+      "correct": "B",
+      "category": "monumenti",
+      "difficulty": "medium",
+      "epoch": "Architettura"
+    },
+    {
+      "question": "I portici di Portogruaro ricordano quelli di:",
+      "answers": {
+        "A": "Bologna",
+        "B": "Venezia",
+        "C": "Padova",
+        "D": "Torino"
+      },
+      "correct": "B",
+      "category": "monumenti",
+      "difficulty": "easy",
+      "epoch": "Architettura"
+    },
+    {
+      "question": "Le facciate affrescate dei palazzi erano decorate con:",
+      "answers": {
+        "A": "Scene religiose",
+        "B": "Soggetti mitologici",
+        "C": "Battaglie",
+        "D": "Paesaggi"
+      },
+      "correct": "B",
+      "category": "monumenti",
+      "difficulty": "medium",
+      "epoch": "Arte"
+    },
+    {
+      "question": "Il centro storico di Portogruaro ha mantenuto la sua struttura:",
+      "answers": {
+        "A": "Romana",
+        "B": "Medievale",
+        "C": "Rinascimentale",
+        "D": "Moderna"
+      },
+      "correct": "B",
+      "category": "urbanistica",
+      "difficulty": "medium",
+      "epoch": "Urbanistica"
+    },
+    {
+      "question": "Le porte di accesso alla città furono ristrutturate in epoca:",
+      "answers": {
+        "A": "Romana",
+        "B": "Medievale",
+        "C": "Veneziana (XV-XVI sec)",
+        "D": "Moderna"
+      },
+      "correct": "C",
+      "category": "monumenti",
+      "difficulty": "hard",
+      "epoch": "Venezia"
+    },
+    {
+      "question": "La diocesi di riferimento storico di Portogruaro era:",
+      "answers": {
+        "A": "Venezia",
+        "B": "Concordia",
+        "C": "Aquileia",
+        "D": "Padova"
+      },
+      "correct": "B",
+      "category": "religione",
+      "difficulty": "medium",
+      "epoch": "Religione"
+    },
+    {
+      "question": "Il vescovo Gervino che fondò Portogruaro era vescovo di:",
+      "answers": {
+        "A": "Venezia",
+        "B": "Aquileia",
+        "C": "Concordia",
+        "D": "Treviso"
+      },
+      "correct": "C",
+      "category": "medioevo",
+      "difficulty": "easy",
+      "epoch": "Fondazione"
+    },
+    {
+      "question": "Il seminario di Portogruaro fu importante per la formazione di:",
+      "answers": {
+        "A": "Mercanti",
+        "B": "Sacerdoti e letterati",
+        "C": "Artisti",
+        "D": "Soldati"
+      },
+      "correct": "B",
+      "category": "cultura",
+      "difficulty": "medium",
+      "epoch": "Religione"
+    },
+    {
+      "question": "Lorenzo Da Ponte divenne vice-rettore del seminario di Portogruaro:",
+      "answers": {
+        "A": "Prima del 1770",
+        "B": "Nel 1770",
+        "C": "Nel 1773",
+        "D": "Dopo il 1775"
+      },
+      "correct": "B",
+      "category": "personaggi",
+      "difficulty": "hard",
+      "epoch": "Da Ponte"
+    },
+    {
+      "question": "La festa del patrono di Portogruaro si celebra:",
+      "answers": {
+        "A": "In primavera",
+        "B": "In estate",
+        "C": "In autunno",
+        "D": "In inverno"
+      },
+      "correct": "B",
+      "category": "tradizioni",
+      "difficulty": "medium",
+      "epoch": "Tradizioni"
+    },
+    {
+      "question": "Il mercato settimanale di Portogruaro si tiene il:",
+      "answers": {
+        "A": "Lunedì",
+        "B": "Martedì",
+        "C": "Giovedì",
+        "D": "Sabato"
+      },
+      "correct": "C",
+      "category": "tradizioni",
+      "difficulty": "medium",
+      "epoch": "Tradizioni"
+    },
+    {
+      "question": "Durante la Grande Guerra, Portogruaro fu:",
+      "answers": {
+        "A": "Bombardata pesantemente",
+        "B": "Base ospedaliera",
+        "C": "Fronte di battaglia",
+        "D": "Abbandonata"
+      },
+      "correct": "B",
+      "category": "guerramondiale",
+      "difficulty": "medium",
+      "epoch": "Grande Guerra"
+    },
+    {
+      "question": "I ponti distrutti dagli austriaci in ritirata furono:",
+      "answers": {
+        "A": "Mai ricostruiti",
+        "B": "Ricostruiti identici",
+        "C": "Ricostruiti in stile moderno",
+        "D": "Ricostruiti in parte"
+      },
+      "correct": "C",
+      "category": "guerramondiale",
+      "difficulty": "hard",
+      "epoch": "Grande Guerra"
+    },
+    {
+      "question": "I 'leoni veneziani' sui ponti furono distrutti da:",
+      "answers": {
+        "A": "Gli austriaci",
+        "B": "I francesi di Napoleone",
+        "C": "Un terremoto",
+        "D": "Il tempo"
+      },
+      "correct": "B",
+      "category": "napoleone",
+      "difficulty": "medium",
+      "epoch": "Napoleone"
+    },
+    {
+      "question": "Antonio Russolo, fratello di Luigi, era:",
+      "answers": {
+        "A": "Pittore",
+        "B": "Compositore e musicista",
+        "C": "Scultore",
+        "D": "Architetto"
+      },
+      "correct": "B",
+      "category": "personaggi",
+      "difficulty": "hard",
+      "epoch": "Personaggi"
+    },
+    {
+      "question": "Casanova era amico di:",
+      "answers": {
+        "A": "Luigi Russolo",
+        "B": "Lorenzo Da Ponte",
+        "C": "Gervino",
+        "D": "Nessuno di questi"
+      },
+      "correct": "B",
+      "category": "personaggi",
+      "difficulty": "medium",
+      "epoch": "Da Ponte"
+    },
+    {
+      "question": "Il motto della città di Portogruaro richiama:",
+      "answers": {
+        "A": "Il commercio",
+        "B": "La fede",
+        "C": "Il leone di Venezia",
+        "D": "Le due gru"
+      },
+      "correct": "D",
+      "category": "simboli",
+      "difficulty": "medium",
+      "epoch": "Simboli"
+    },
+    {
+      "question": "La pavimentazione del centro storico è principalmente in:",
+      "answers": {
+        "A": "Asfalto",
+        "B": "Pietra d'Istria",
+        "C": "Mattoni",
+        "D": "Marmo"
+      },
+      "correct": "B",
+      "category": "urbanistica",
+      "difficulty": "hard",
+      "epoch": "Urbanistica"
+    },
+    {
+      "question": "Il Collegio Marconi ospitava:",
+      "answers": {
+        "A": "Un ospedale",
+        "B": "Il seminario",
+        "C": "Un teatro",
+        "D": "Una caserma"
+      },
+      "correct": "B",
+      "category": "monumenti",
+      "difficulty": "medium",
+      "epoch": "Educazione"
+    },
+    {
+      "question": "Palazzo Venanzio si trova in:",
+      "answers": {
+        "A": "Via Seminario",
+        "B": "Piazza della Repubblica",
+        "C": "Via Roma",
+        "D": "Corso Martiri"
+      },
+      "correct": "A",
+      "category": "monumenti",
+      "difficulty": "hard",
+      "epoch": "Monumenti"
+    },
+    {
+      "question": "Luigi Russolo nacque in:",
+      "answers": {
+        "A": "Via Garibaldi",
+        "B": "Palazzo Venanzio",
+        "C": "Piazza Repubblica",
+        "D": "Via Roma"
+      },
+      "correct": "B",
+      "category": "personaggi",
+      "difficulty": "hard",
+      "epoch": "Russolo"
+    },
+    {
+      "question": "Il pittore Luigi Russolo fu anche:",
+      "answers": {
+        "A": "Scultore",
+        "B": "Architetto",
+        "C": "Inventore e musicista",
+        "D": "Poeta"
+      },
+      "correct": "C",
+      "category": "personaggi",
+      "difficulty": "easy",
+      "epoch": "Russolo"
+    },
+    {
+      "question": "Russolo morì a:",
+      "answers": {
+        "A": "Portogruaro",
+        "B": "Venezia",
+        "C": "Milano",
+        "D": "Laveno-Mombello"
+      },
+      "correct": "D",
+      "category": "personaggi",
+      "difficulty": "expert",
+      "epoch": "Russolo"
+    },
+    {
+      "question": "Negli ultimi anni di vita, Russolo si dedicò a:",
+      "answers": {
+        "A": "Pittura",
+        "B": "Metapsichica",
+        "C": "Insegnamento",
+        "D": "Politica"
+      },
+      "correct": "B",
+      "category": "personaggi",
+      "difficulty": "expert",
+      "epoch": "Russolo"
+    },
+    {
+      "question": "Il libro di Russolo 'Al di là della materia' tratta di:",
+      "answers": {
+        "A": "Musica",
+        "B": "Pittura",
+        "C": "Metapsichica",
+        "D": "Storia dell'arte"
+      },
+      "correct": "C",
+      "category": "cultura",
+      "difficulty": "expert",
+      "epoch": "Russolo"
+    },
+    {
+      "question": "Russolo dipinse nello stile 'classico moderno' negli anni:",
+      "answers": {
+        "A": "1910",
+        "B": "1920",
+        "C": "1930",
+        "D": "1940"
+      },
+      "correct": "D",
+      "category": "cultura",
+      "difficulty": "expert",
+      "epoch": "Russolo"
+    },
+    {
+      "question": "La 'Patria del Friuli' era governata dal:",
+      "answers": {
+        "A": "Doge",
+        "B": "Patriarca di Aquileia",
+        "C": "Re",
+        "D": "Imperatore"
+      },
+      "correct": "B",
+      "category": "medioevo",
+      "difficulty": "hard",
+      "epoch": "Medioevo"
+    },
+    {
+      "question": "Il podestà di Portogruaro nel periodo veneziano era:",
+      "answers": {
+        "A": "Eletto localmente",
+        "B": "Nominato da Venezia",
+        "C": "Ereditario",
+        "D": "Scelto dal vescovo"
+      },
+      "correct": "B",
+      "category": "venezia",
+      "difficulty": "medium",
+      "epoch": "Venezia"
+    },
+    {
+      "question": "Il Consiglio della Comunità di Portogruaro operò fino al:",
+      "answers": {
+        "A": "1420",
+        "B": "1600",
+        "C": "1797",
+        "D": "1866"
+      },
+      "correct": "C",
+      "category": "venezia",
+      "difficulty": "hard",
+      "epoch": "Venezia"
+    },
+    {
+      "question": "La Municipalità provvisoria fu istituita a Portogruaro:",
+      "answers": {
+        "A": "Durante l'occupazione francese",
+        "B": "Durante l'occupazione austriaca",
+        "C": "Dopo l'Unità d'Italia",
+        "D": "Mai"
+      },
+      "correct": "A",
+      "category": "napoleone",
+      "difficulty": "hard",
+      "epoch": "Napoleone"
+    },
+    {
+      "question": "Nel 1807, Portogruaro chiese di essere aggregata a:",
+      "answers": {
+        "A": "Austria",
+        "B": "Venezia",
+        "C": "Regno Italico",
+        "D": "Friuli"
+      },
+      "correct": "B",
+      "category": "napoleone",
+      "difficulty": "expert",
+      "epoch": "Napoleone"
+    },
+    {
+      "question": "Questa richiesta fu esaudita nel:",
+      "answers": {
+        "A": "1808",
+        "B": "1809",
+        "C": "1810",
+        "D": "1811"
+      },
+      "correct": "C",
+      "category": "napoleone",
+      "difficulty": "expert",
+      "epoch": "Napoleone"
+    },
+    {
+      "question": "Dopo il Congresso di Vienna (1815), Portogruaro:",
+      "answers": {
+        "A": "Divenne italiana",
+        "B": "Tornò sotto l'Austria",
+        "C": "Divenne indipendente",
+        "D": "Rimase francese"
+      },
+      "correct": "B",
+      "category": "austria",
+      "difficulty": "medium",
+      "epoch": "Austria"
+    },
+    {
+      "question": "Il periodo di regime repubblicano del 1848 a Portogruaro fu:",
+      "answers": {
+        "A": "Molto lungo",
+        "B": "Breve",
+        "C": "Mai esistito",
+        "D": "Permanente"
+      },
+      "correct": "B",
+      "category": "risorgimento",
+      "difficulty": "medium",
+      "epoch": "Risorgimento"
+    },
+    {
+      "question": "I moti del 1848 in Europa erano collegati a:",
+      "answers": {
+        "A": "Rivoluzione francese",
+        "B": "Restaurazione",
+        "C": "Rinascimento",
+        "D": "Illuminismo"
+      },
+      "correct": "B",
+      "category": "risorgimento",
+      "difficulty": "hard",
+      "epoch": "Risorgimento"
+    },
+    {
+      "question": "L'annessione al Regno d'Italia avvenne dopo la guerra:",
+      "answers": {
+        "A": "Austro-prussiana (1866)",
+        "B": "Risorgimento (1859-60)",
+        "C": "Prima Guerra Mondiale",
+        "D": "Franco-prussiana"
+      },
+      "correct": "A",
+      "category": "italia",
+      "difficulty": "hard",
+      "epoch": "Regno d'Italia"
+    },
+    {
+      "question": "Da Ponte scrisse 'Le Nozze di Figaro' basandosi sull'opera di:",
+      "answers": {
+        "A": "Shakespeare",
+        "B": "Beaumarchais",
+        "C": "Molière",
+        "D": "Goldoni"
+      },
+      "correct": "B",
+      "category": "cultura",
+      "difficulty": "hard",
+      "epoch": "Da Ponte"
+    },
+    {
+      "question": "'Don Giovanni' di Mozart/Da Ponte è basato sulla leggenda di:",
+      "answers": {
+        "A": "Don Chisciotte",
+        "B": "Don Juan",
+        "C": "Faust",
+        "D": "Romeo"
+      },
+      "correct": "B",
+      "category": "cultura",
+      "difficulty": "medium",
+      "epoch": "Da Ponte"
+    },
+    {
+      "question": "Lorenzo Da Ponte introdusse l'opera italiana in:",
+      "answers": {
+        "A": "Inghilterra",
+        "B": "Francia",
+        "C": "America",
+        "D": "Germania"
+      },
+      "correct": "C",
+      "category": "personaggi",
+      "difficulty": "medium",
+      "epoch": "Da Ponte"
+    },
+    {
+      "question": "Da Ponte emigrò in America nel:",
+      "answers": {
+        "A": "1795",
+        "B": "1800",
+        "C": "1805",
+        "D": "1810"
+      },
+      "correct": "C",
+      "category": "personaggi",
+      "difficulty": "hard",
+      "epoch": "Da Ponte"
+    },
+    {
+      "question": "Arrivato in America, Da Ponte aprì:",
+      "answers": {
+        "A": "Una scuola",
+        "B": "Un teatro",
+        "C": "Una bottega alimentare",
+        "D": "Una libreria"
+      },
+      "correct": "C",
+      "category": "personaggi",
+      "difficulty": "hard",
+      "epoch": "Da Ponte"
+    },
+    {
+      "question": "Da Ponte visse fino a:",
+      "answers": {
+        "A": "80 anni",
+        "B": "85 anni",
+        "C": "89 anni",
+        "D": "95 anni"
+      },
+      "correct": "C",
+      "category": "personaggi",
+      "difficulty": "expert",
+      "epoch": "Da Ponte"
+    },
+    {
+      "question": "Le 'Memorie' di Da Ponte furono pubblicate in:",
+      "answers": {
+        "A": "2 volumi",
+        "B": "3 volumi",
+        "C": "4 volumi",
+        "D": "5 volumi"
+      },
+      "correct": "C",
+      "category": "cultura",
+      "difficulty": "expert",
+      "epoch": "Da Ponte"
+    },
+    {
+      "question": "Da Ponte fu bandito da Venezia per:",
+      "answers": {
+        "A": "Debiti",
+        "B": "Concubinaggio e rapimento",
+        "C": "Eresia",
+        "D": "Tradimento"
+      },
+      "correct": "B",
+      "category": "personaggi",
+      "difficulty": "hard",
+      "epoch": "Da Ponte"
+    },
+    {
+      "question": "Il ban di Venezia durò:",
+      "answers": {
+        "A": "5 anni",
+        "B": "10 anni",
+        "C": "15 anni",
+        "D": "20 anni"
+      },
+      "correct": "C",
+      "category": "personaggi",
+      "difficulty": "expert",
+      "epoch": "Da Ponte"
+    },
+    {
+      "question": "Da Ponte lavorò anche con il compositore:",
+      "answers": {
+        "A": "Haydn",
+        "B": "Salieri",
+        "C": "Beethoven",
+        "D": "Rossini"
+      },
+      "correct": "B",
+      "category": "cultura",
+      "difficulty": "hard",
+      "epoch": "Da Ponte"
+    },
+    {
+      "question": "L'Acco Super Bulldozer si trova a:",
+      "answers": {
+        "A": "Venezia",
+        "B": "Portogruaro",
+        "C": "Treviso",
+        "D": "Padova"
+      },
+      "correct": "B",
+      "category": "curiosità",
+      "difficulty": "expert",
+      "epoch": "Industria"
+    },
+    {
+      "question": "La produzione di fosfati a Portogruaro era gestita da:",
+      "answers": {
+        "A": "Una piccola azienda",
+        "B": "Una grande produttrice",
+        "C": "Lo stato",
+        "D": "Cooperativa"
+      },
+      "correct": "B",
+      "category": "industria",
+      "difficulty": "expert",
+      "epoch": "Industria"
+    },
+    {
+      "question": "Questo stabilimento di fosfati oggi è:",
+      "answers": {
+        "A": "Attivo",
+        "B": "Chiuso",
+        "C": "Riconvertito",
+        "D": "Traslocato"
+      },
+      "correct": "B",
+      "category": "industria",
+      "difficulty": "medium",
+      "epoch": "Industria"
+    },
+    {
+      "question": "Il Cantiere Camuffo è una delle industrie più antiche:",
+      "answers": {
+        "A": "D'Italia",
+        "B": "D'Europa",
+        "C": "Del mondo",
+        "D": "Del Veneto"
+      },
+      "correct": "C",
+      "category": "industria",
+      "difficulty": "medium",
+      "epoch": "Industria"
+    },
+    {
+      "question": "Il Cantiere Camuffo costruisce principalmente:",
+      "answers": {
+        "A": "Barche",
+        "B": "Navi da guerra",
+        "C": "Traghetti",
+        "D": "Sottomarini"
+      },
+      "correct": "A",
+      "category": "industria",
+      "difficulty": "easy",
+      "epoch": "Industria"
+    },
+    {
+      "question": "Il distretto di Portogruaro comprende:",
+      "answers": {
+        "A": "5 comuni",
+        "B": "11 comuni",
+        "C": "15 comuni",
+        "D": "20 comuni"
+      },
+      "correct": "B",
+      "category": "geografia",
+      "difficulty": "hard",
+      "epoch": "Geografia"
+    },
+    {
+      "question": "Il Venezia Orientale conta circa:",
+      "answers": {
+        "A": "50.000 abitanti",
+        "B": "100.000 abitanti",
+        "C": "150.000 abitanti",
+        "D": "200.000 abitanti"
+      },
+      "correct": "B",
+      "category": "geografia",
+      "difficulty": "hard",
+      "epoch": "Geografia"
+    },
+    {
+      "question": "Durante l'estate, le spiagge vicine a Portogruaro accolgono:",
+      "answers": {
+        "A": "Migliaia di turisti",
+        "B": "Centinaia di migliaia",
+        "C": "Milioni di presenze",
+        "D": "Pochi turisti"
+      },
+      "correct": "C",
+      "category": "turismo",
+      "difficulty": "medium",
+      "epoch": "Turismo"
+    },
+    {
+      "question": "Il Museo Nazionale Concordiese conserva reperti di epoca:",
+      "answers": {
+        "A": "Solo romana",
+        "B": "Romana e paleocristiana",
+        "C": "Solo medievale",
+        "D": "Solo moderna"
+      },
+      "correct": "B",
+      "category": "cultura",
+      "difficulty": "medium",
+      "epoch": "Musei"
+    },
+    {
+      "question": "La Fondazione di Venezia ha acquisito a Portogruaro:",
+      "answers": {
+        "A": "Il Teatro",
+        "B": "Il Municipio",
+        "C": "La Scuola di Musica Santa Cecilia",
+        "D": "Il Duomo"
+      },
+      "correct": "C",
+      "category": "cultura",
+      "difficulty": "hard",
+      "epoch": "Fondazioni"
+    },
+    {
+      "question": "La mostra 'La dogaressa tra storia e mito' si è tenuta nel:",
+      "answers": {
+        "A": "2021",
+        "B": "2022",
+        "C": "2023-2024",
+        "D": "2025"
+      },
+      "correct": "C",
+      "category": "cultura",
+      "difficulty": "hard",
+      "epoch": "Eventi Recenti"
+    },
+    {
+      "question": "Questa mostra era dedicata a:",
+      "answers": {
+        "A": "I dogi di Venezia",
+        "B": "Le dogaresse e figure femminili",
+        "C": "L'arte veneziana",
+        "D": "La storia di Portogruaro"
+      },
+      "correct": "B",
+      "category": "cultura",
+      "difficulty": "medium",
+      "epoch": "Eventi Recenti"
+    },
+    {
+      "question": "La mostra si tenne presso:",
+      "answers": {
+        "A": "Il Teatro Russolo",
+        "B": "Il Palazzo Municipale",
+        "C": "Il Palazzo Vescovile",
+        "D": "Ca' Vendramin"
+      },
+      "correct": "C",
+      "category": "cultura",
+      "difficulty": "hard",
+      "epoch": "Eventi Recenti"
+    },
+    {
+      "question": "Il Distretto Turistico Venezia Orientale ha sede a:",
+      "answers": {
+        "A": "Venezia",
+        "B": "Portogruaro",
+        "C": "Caorle",
+        "D": "San Donà"
+      },
+      "correct": "B",
+      "category": "turismo",
+      "difficulty": "medium",
+      "epoch": "Turismo"
+    },
+    {
+      "question": "Portogruaro fa parte della provincia di Venezia, che è diventata:",
+      "answers": {
+        "A": "Regione",
+        "B": "Città metropolitana",
+        "C": "Provincia autonoma",
+        "D": "Comune"
+      },
+      "correct": "B",
+      "category": "amministrazione",
+      "difficulty": "medium",
+      "epoch": "Amministrazione"
+    },
+    {
+      "question": "I burci erano:",
+      "answers": {
+        "A": "Imbarcazioni fluviali",
+        "B": "Carri",
+        "C": "Edifici",
+        "D": "Strumenti"
+      },
+      "correct": "A",
+      "category": "trasporti",
+      "difficulty": "medium",
+      "epoch": "Commercio"
+    },
+    {
+      "question": "I burci navigavano sul:",
+      "answers": {
+        "A": "Mare",
+        "B": "Lemene",
+        "C": "Canali",
+        "D": "Laguna"
+      },
+      "correct": "B",
+      "category": "trasporti",
+      "difficulty": "easy",
+      "epoch": "Commercio"
+    },
+    {
+      "question": "La caratteristica principale del centro di Portogruaro è:",
+      "answers": {
+        "A": "La piazza centrale",
+        "B": "Il castello",
+        "C": "Il fiume che lo attraversa",
+        "D": "Le mura"
+      },
+      "correct": "C",
+      "category": "urbanistica",
+      "difficulty": "easy",
+      "epoch": "Urbanistica"
+    },
+    {
+      "question": "Il ponte più famoso di Portogruaro è:",
+      "answers": {
+        "A": "Ponte di Rialto",
+        "B": "Ponte dei Sospiri",
+        "C": "Ponte sul Lemene",
+        "D": "Non ha ponti famosi con nome"
+      },
+      "correct": "D",
+      "category": "monumenti",
+      "difficulty": "medium",
+      "epoch": "Monumenti"
+    },
+    {
+      "question": "I 'magli' e 'folli' menzionati nella storia erano:",
+      "answers": {
+        "A": "Persone",
+        "B": "Macchinari industriali",
+        "C": "Edifici",
+        "D": "Imbarcazioni"
+      },
+      "correct": "B",
+      "category": "industria",
+      "difficulty": "hard",
+      "epoch": "Industria"
+    },
+    {
+      "question": "Questi macchinari erano azionati da:",
+      "answers": {
+        "A": "Vapore",
+        "B": "Elettricità",
+        "C": "Forza idraulica",
+        "D": "Animali"
+      },
+      "correct": "C",
+      "category": "industria",
+      "difficulty": "medium",
+      "epoch": "Industria"
+    },
+    {
+      "question": "La 'voga alla veneta' è:",
+      "answers": {
+        "A": "Una danza",
+        "B": "Un tipo di remata",
+        "C": "Una ricetta",
+        "D": "Un dialetto"
+      },
+      "correct": "B",
+      "category": "tradizioni",
+      "difficulty": "medium",
+      "epoch": "Tradizioni"
+    },
+    {
+      "question": "Il nome 'liston' per la passeggiata deriva da:",
+      "answers": {
+        "A": "Lista (striscia)",
+        "B": "Un architetto",
+        "C": "Un materiale",
+        "D": "Una famiglia nobile"
+      },
+      "correct": "A",
+      "category": "urbanistica",
+      "difficulty": "hard",
+      "epoch": "Urbanistica"
+    },
+    {
+      "question": "I 'barnabotti' veneziani erano:",
+      "answers": {
+        "A": "Ricchi mercanti",
+        "B": "Nobili impoveriti",
+        "C": "Artigiani",
+        "D": "Pescatori"
+      },
+      "correct": "B",
+      "category": "venezia",
+      "difficulty": "hard",
+      "epoch": "Venezia"
+    },
+    {
+      "question": "Angela Tiepolo, amante di Da Ponte, era:",
+      "answers": {
+        "A": "Una ricca mercante",
+        "B": "Una barnabotta",
+        "C": "Una cantante",
+        "D": "Una pittrice"
+      },
+      "correct": "B",
+      "category": "personaggi",
+      "difficulty": "expert",
+      "epoch": "Da Ponte"
+    },
+    {
+      "question": "Il Patriarcato di Aquileia esistette fino al:",
+      "answers": {
+        "A": "1420",
+        "B": "1550",
+        "C": "1751",
+        "D": "1797"
+      },
+      "correct": "C",
+      "category": "religione",
+      "difficulty": "expert",
+      "epoch": "Religione"
+    },
+    {
+      "question": "Dopo la soppressione del Patriarcato, Concordia divenne:",
+      "answers": {
+        "A": "Arcivescovado",
+        "B": "Diocesi autonoma",
+        "C": "Parte di Venezia",
+        "D": "Parte di Udine"
+      },
+      "correct": "B",
+      "category": "religione",
+      "difficulty": "expert",
+      "epoch": "Religione"
+    },
+    {
+      "question": "Il sistema idraulico del Lemene è di tipo:",
+      "answers": {
+        "A": "Montano",
+        "B": "Risorgiva",
+        "C": "Glaciale",
+        "D": "Carsico"
+      },
+      "correct": "B",
+      "category": "natura",
+      "difficulty": "hard",
+      "epoch": "Natura"
+    },
+    {
+      "question": "Le acque di risorgiva sono caratterizzate da:",
+      "answers": {
+        "A": "Temperature costanti",
+        "B": "Purezza",
+        "C": "Portata regolare",
+        "D": "Tutte le precedenti"
+      },
+      "correct": "D",
+      "category": "natura",
+      "difficulty": "medium",
+      "epoch": "Natura"
+    },
+    {
+      "question": "Il Parco dei Fiumi offre percorsi per:",
+      "answers": {
+        "A": "Solo pedoni",
+        "B": "Solo ciclisti",
+        "C": "Pedoni, ciclisti e birdwatching",
+        "D": "Solo auto"
+      },
+      "correct": "C",
+      "category": "natura",
+      "difficulty": "easy",
+      "epoch": "Turismo"
+    },
+    {
+      "question": "Birdwatching significa:",
+      "answers": {
+        "A": "Caccia",
+        "B": "Osservazione uccelli",
+        "C": "Pesca",
+        "D": "Fotografia"
+      },
+      "correct": "B",
+      "category": "natura",
+      "difficulty": "easy",
+      "epoch": "Turismo"
+    },
+    {
+      "question": "Il territorio di Portogruaro era parte della centuriazione di:",
+      "answers": {
+        "A": "Aquileia",
+        "B": "Concordia",
+        "C": "Altino",
+        "D": "Padova"
+      },
+      "correct": "B",
+      "category": "romani",
+      "difficulty": "medium",
+      "epoch": "Romani"
+    },
+    {
+      "question": "La centuriazione romana era:",
+      "answers": {
+        "A": "Un sistema di strade",
+        "B": "Una divisione del territorio agricolo",
+        "C": "Un sistema difensivo",
+        "D": "Una rete di acquedotti"
+      },
+      "correct": "B",
+      "category": "romani",
+      "difficulty": "medium",
+      "epoch": "Romani"
+    },
+    {
+      "question": "I resti della centuriazione sono ancora visibili:",
+      "answers": {
+        "A": "Solo nei musei",
+        "B": "Dall'alto (foto aeree)",
+        "C": "Solo sotto terra",
+        "D": "Non esistono più"
+      },
+      "correct": "B",
+      "category": "romani",
+      "difficulty": "medium",
+      "epoch": "Romani"
+    },
+    {
+      "question": "Il termine 'concordiese' si riferisce a:",
+      "answers": {
+        "A": "Portogruaro",
+        "B": "Concordia Sagittaria",
+        "C": "Il Veneto",
+        "D": "Venezia"
+      },
+      "correct": "B",
+      "category": "linguistica",
+      "difficulty": "easy",
+      "epoch": "Linguistica"
+    },
+    {
+      "question": "La Fondazione di Venezia sostiene:",
+      "answers": {
+        "A": "Solo Venezia",
+        "B": "Il Veneto",
+        "C": "Venezia e territori limitrofi",
+        "D": "Tutta Italia"
+      },
+      "correct": "C",
+      "category": "fondazioni",
+      "difficulty": "medium",
+      "epoch": "Fondazioni"
+    },
+    {
+      "question": "Il Distretto Turistico promuove:",
+      "answers": {
+        "A": "Solo Portogruaro",
+        "B": "Venezia Orientale",
+        "C": "Tutto il Veneto",
+        "D": "Solo le spiagge"
+      },
+      "correct": "B",
+      "category": "turismo",
+      "difficulty": "medium",
+      "epoch": "Turismo"
+    },
+    {
+      "question": "San Donà di Piave insieme a Portogruaro forma:",
+      "answers": {
+        "A": "Una provincia",
+        "B": "Il Venezia Orientale",
+        "C": "Una città unica",
+        "D": "Un comune unico"
+      },
+      "correct": "B",
+      "category": "geografia",
+      "difficulty": "medium",
+      "epoch": "Geografia"
+    },
+    {
+      "question": "L'Opium Club, famoso locale notturno, si trova a:",
+      "answers": {
+        "A": "Portogruaro",
+        "B": "Pordenone",
+        "C": "Venezia",
+        "D": "Caorle"
+      },
+      "correct": "B",
+      "category": "eventi",
+      "difficulty": "easy",
+      "epoch": "Eventi Moderni"
+    },
+    {
+      "question": "Il Caffè dell'Angolo è:",
+      "answers": {
+        "A": "Un bar storico",
+        "B": "Un locale moderno",
+        "C": "Un ristorante",
+        "D": "Un club"
+      },
+      "correct": "A",
+      "category": "locali",
+      "difficulty": "easy",
+      "epoch": "Caffè"
+    },
+    {
+      "question": "Il leone alato, simbolo di Venezia, rappresenta:",
+      "answers": {
+        "A": "La forza",
+        "B": "San Marco Evangelista",
+        "C": "Il doge",
+        "D": "Il mare"
+      },
+      "correct": "B",
+      "category": "simboli",
+      "difficulty": "medium",
+      "epoch": "Venezia"
+    },
+    {
+      "question": "Il libro aperto sotto la zampa del leone di San Marco indica:",
+      "answers": {
+        "A": "Pace",
+        "B": "Guerra",
+        "C": "Sapienza",
+        "D": "Commercio"
+      },
+      "correct": "A",
+      "category": "simboli",
+      "difficulty": "hard",
+      "epoch": "Venezia"
+    },
+    {
+      "question": "Il libro chiuso invece indica:",
+      "answers": {
+        "A": "Pace",
+        "B": "Guerra",
+        "C": "Preghiera",
+        "D": "Studio"
+      },
+      "correct": "B",
+      "category": "simboli",
+      "difficulty": "hard",
+      "epoch": "Venezia"
+    },
+    {
+      "question": "Il dialetto veneto di Portogruaro conserva influenze del:",
+      "answers": {
+        "A": "Tedesco",
+        "B": "Friulano",
+        "C": "Sloveno",
+        "D": "Francese"
+      },
+      "correct": "B",
+      "category": "linguistica",
+      "difficulty": "medium",
+      "epoch": "Linguistica"
+    },
+    {
+      "question": "Il confine linguistico veneto-friulano passa:",
+      "answers": {
+        "A": "Molto a est di Portogruaro",
+        "B": "Vicino a Portogruaro",
+        "C": "Molto a ovest",
+        "D": "Non esiste"
+      },
+      "correct": "B",
+      "category": "linguistica",
+      "difficulty": "hard",
+      "epoch": "Linguistica"
+    },
+    {
+      "question": "La cucina locale di Portogruaro è influenzata da:",
+      "answers": {
+        "A": "Tradizione veneziana",
+        "B": "Tradizione friulana",
+        "C": "Entrambe",
+        "D": "Nessuna delle due"
+      },
+      "correct": "C",
+      "category": "enogastronomia",
+      "difficulty": "medium",
+      "epoch": "Enogastronomia"
+    },
+    {
+      "question": "Il motto di Portogruaro potrebbe essere 'Civitas...':",
+      "answers": {
+        "A": "Aquarum (delle acque)",
+        "B": "Commercii (del commercio)",
+        "C": "Fidelis (fedele)",
+        "D": "Venetorum (dei veneti)"
+      },
+      "correct": "A",
+      "category": "simboli",
+      "difficulty": "expert",
+      "epoch": "Simboli"
+    },
+    {
+      "question": "I pescatori che fondarono Portogruaro erano anche chiamati:",
+      "answers": {
+        "A": "Marinai",
+        "B": "Portolani",
+        "C": "Barcaioli",
+        "D": "Gondolieri"
+      },
+      "correct": "B",
+      "category": "medioevo",
+      "difficulty": "medium",
+      "epoch": "Fondazione"
+    },
+    {
+      "question": "Il termine 'portolano' si riferisce a:",
+      "answers": {
+        "A": "Chi gestisce un porto",
+        "B": "Un tipo di imbarcazione",
+        "C": "Un commerciante",
+        "D": "Un pescatore"
+      },
+      "correct": "A",
+      "category": "medioevo",
+      "difficulty": "medium",
+      "epoch": "Fondazione"
+    },
+    {
+      "question": "L'imperatore Giuseppe II d'Austria visitò Portogruaro?",
+      "answers": {
+        "A": "Sì, più volte",
+        "B": "Sì, una volta",
+        "C": "No, mai",
+        "D": "Non si sa"
+      },
+      "correct": "D",
+      "category": "austria",
+      "difficulty": "expert",
+      "epoch": "Austria"
+    },
+    {
+      "question": "Il tipico 'spritz' veneto è nato probabilmente:",
+      "answers": {
+        "A": "A Venezia",
+        "B": "Durante occupazione austriaca",
+        "C": "Nel dopoguerra",
+        "D": "Nell'800"
+      },
+      "correct": "B",
+      "category": "enogastronomia",
+      "difficulty": "medium",
+      "epoch": "Tradizioni"
+    },
+    {
+      "question": "La 'polenta e schie' è un piatto tipico di:",
+      "answers": {
+        "A": "Tutta Italia",
+        "B": "Zona lagunare veneziana",
+        "C": "Friuli",
+        "D": "Lombardia"
+      },
+      "correct": "B",
+      "category": "enogastronomia",
+      "difficulty": "medium",
+      "epoch": "Enogastronomia"
+    },
+    {
+      "question": "Il 'sarde in saor' è:",
+      "answers": {
+        "A": "Un dolce",
+        "B": "Un primo piatto",
+        "C": "Sardine in agrodolce",
+        "D": "Una bevanda"
+      },
+      "correct": "C",
+      "category": "enogastronomia",
+      "difficulty": "medium",
+      "epoch": "Enogastronomia"
+    },
+    {
+      "question": "Il 'bigoli in salsa' è tipico della cucina:",
+      "answers": {
+        "A": "Veneziana",
+        "B": "Romana",
+        "C": "Napoletana",
+        "D": "Milanese"
+      },
+      "correct": "A",
+      "category": "enogastronomia",
+      "difficulty": "easy",
+      "epoch": "Enogastronomia"
+    },
+    {
+      "question": "Il Redentore è una festa veneziana che si celebra a:",
+      "answers": {
+        "A": "Maggio",
+        "B": "Giugno",
+        "C": "Luglio",
+        "D": "Agosto"
+      },
+      "correct": "C",
+      "category": "tradizioni",
+      "difficulty": "medium",
+      "epoch": "Venezia"
+    },
+    {
+      "question": "La Regata Storica di Venezia si tiene a:",
+      "answers": {
+        "A": "Giugno",
+        "B": "Luglio",
+        "C": "Agosto",
+        "D": "Settembre"
+      },
+      "correct": "D",
+      "category": "tradizioni",
+      "difficulty": "medium",
+      "epoch": "Venezia"
+    },
+    {
+      "question": "Il Carnevale di Venezia è famoso per:",
+      "answers": {
+        "A": "Le gondole",
+        "B": "Le maschere",
+        "C": "I palazzi",
+        "D": "I ponti"
+      },
+      "correct": "B",
+      "category": "tradizioni",
+      "difficulty": "easy",
+      "epoch": "Venezia"
+    },
+    {
+      "question": "La maschera veneziana più famosa è:",
+      "answers": {
+        "A": "Arlecchino",
+        "B": "Bauta",
+        "C": "Pulcinella",
+        "D": "Colombina"
+      },
+      "correct": "B",
+      "category": "tradizioni",
+      "difficulty": "medium",
+      "epoch": "Venezia"
+    },
+    {
+      "question": "Il 'baicolo' è:",
+      "answers": {
+        "A": "Un biscotto veneziano",
+        "B": "Una barca",
+        "C": "Una festa",
+        "D": "Un palazzo"
+      },
+      "correct": "A",
+      "category": "enogastronomia",
+      "difficulty": "hard",
+      "epoch": "Enogastronomia"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi vuol essere milionario? - Gioco</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="game-body">
+    <div class="game-container">
+        <!-- Barra superiore con informazioni -->
+        <div class="top-bar">
+            <div class="player-info">
+                <span id="playerNameDisplay">Giocatore</span>
+            </div>
+            <div class="current-prize">
+                <span>Premio attuale: </span>
+                <span id="currentPrize" class="prize-amount">€0</span>
+            </div>
+            <div class="timer-container">
+                <span>Tempo: </span>
+                <span id="timer">30</span>
+            </div>
+        </div>
+
+        <!-- Area domanda -->
+        <div class="question-area">
+            <div class="question-number">
+                Domanda <span id="questionNumber">1</span> di 15
+            </div>
+            <div class="question-text" id="questionText">
+                La domanda apparirà qui...
+            </div>
+        </div>
+
+        <!-- Area risposte -->
+        <div class="answers-container">
+            <div class="answer-row">
+                <button class="answer-btn" data-answer="A" onclick="selectAnswer('A')">
+                    <span class="answer-letter">A:</span>
+                    <span class="answer-text" id="answerA">Risposta A</span>
+                </button>
+                <button class="answer-btn" data-answer="B" onclick="selectAnswer('B')">
+                    <span class="answer-letter">B:</span>
+                    <span class="answer-text" id="answerB">Risposta B</span>
+                </button>
+            </div>
+            <div class="answer-row">
+                <button class="answer-btn" data-answer="C" onclick="selectAnswer('C')">
+                    <span class="answer-letter">C:</span>
+                    <span class="answer-text" id="answerC">Risposta C</span>
+                </button>
+                <button class="answer-btn" data-answer="D" onclick="selectAnswer('D')">
+                    <span class="answer-letter">D:</span>
+                    <span class="answer-text" id="answerD">Risposta D</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Aiuti -->
+        <div class="lifelines-container">
+            <button class="lifeline-btn" id="fiftyFifty" onclick="useFiftyFifty()">
+                <span class="lifeline-icon">50:50</span>
+                <span class="lifeline-name">50/50</span>
+            </button>
+            <button class="lifeline-btn" id="askAudience" onclick="askAudience()">
+                <span class="lifeline-icon">👥</span>
+                <span class="lifeline-name">Aiuto del Pubblico</span>
+            </button>
+            <button class="lifeline-btn" id="phoneCall" onclick="phoneCall()">
+                <span class="lifeline-icon">📞</span>
+                <span class="lifeline-name">Telefonata</span>
+            </button>
+        </div>
+
+        <!-- Scala premi -->
+        <div class="prize-ladder">
+            <h3>Scala Premi</h3>
+            <div class="prizes-list" id="prizesList">
+                <!-- I premi verranno generati dinamicamente -->
+            </div>
+        </div>
+
+        <!-- Pulsante ritiro -->
+        <div class="game-actions">
+            <button class="action-btn retire-btn" onclick="retireMoney()">
+                💰 Ritira il Premio
+            </button>
+            <button class="action-btn quit-btn" onclick="quitGame()">
+                🚪 Abbandona
+            </button>
+        </div>
+    </div>
+
+    <!-- Modal Aiuto Pubblico -->
+    <div id="audienceModal" class="modal">
+        <div class="modal-content">
+            <h2>📊 Aiuto del Pubblico</h2>
+            <div id="audienceChart" class="audience-chart">
+                <!-- Grafico percentuali pubblico -->
+            </div>
+            <button class="menu-btn" onclick="closeAudienceModal()">Chiudi</button>
+        </div>
+    </div>
+
+    <!-- Modal Telefonata -->
+    <div id="phoneModal" class="modal">
+        <div class="modal-content">
+            <h2>📞 Telefonata all'Amico</h2>
+            <div id="phoneAdvice" class="phone-advice">
+                <!-- Consiglio dell'amico -->
+            </div>
+            <button class="menu-btn" onclick="closePhoneModal()">Chiudi</button>
+        </div>
+    </div>
+
+    <!-- Modal Fine Gioco -->
+    <div id="gameOverModal" class="modal">
+        <div class="modal-content game-over">
+            <h2 id="gameOverTitle">Game Over</h2>
+            <div id="gameOverMessage" class="game-over-message"></div>
+            <div id="finalPrize" class="final-prize"></div>
+            <div class="game-over-actions">
+                <button class="menu-btn" onclick="playAgain()">Gioca Ancora</button>
+                <button class="menu-btn" onclick="backToMenu()">Menu Principale</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="controllers.js"></script>
+    <script>
+        // Inizializza il gioco quando la pagina è caricata
+        window.onload = function() {
+            initGame();
+        };
+    </script>
+</body>
+</html>
