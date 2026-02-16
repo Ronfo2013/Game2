@@ -36,9 +36,9 @@ const prizeLadder = [
 // INIZIALIZZAZIONE GIOCO
 // ============================================
 
-function initGame() {
+async function initGame() {
     loadGameSettings();
-    loadQuestions();
+    await loadQuestions();
     setupPrizeLadder();
     displayQuestion();
     updateUI();
