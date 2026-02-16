@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chi vuol essere milionario? - Gioco</title>
+    <title>Chi Vuole Essere Il Doge? - Gioco</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="game-body">
@@ -127,12 +127,123 @@
         </div>
     </div>
 
+    <!-- Pulsante musica flottante -->
+    <button id="musicToggle" class="music-toggle-btn" onclick="toggleMusic()" title="Attiva/Disattiva Musica">
+        🔇
+    </button>
+
     <script src="controllers.js"></script>
     <script>
+        // ============================================
+        // MUSICA SUSPENSE IN-GAME
+        // ============================================
+        let audioCtx = null;
+        let musicPlaying = false;
+        let musicInterval = null;
+        let musicGain = null;
+
+        function createMusicContext() {
+            audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+            musicGain = audioCtx.createGain();
+            musicGain.gain.value = 0.12;
+            musicGain.connect(audioCtx.destination);
+        }
+
+        function playNote(freq, startTime, duration, type = 'sine', volume = 0.12) {
+            const osc = audioCtx.createOscillator();
+            const gain = audioCtx.createGain();
+            osc.type = type;
+            osc.frequency.value = freq;
+            gain.gain.setValueAtTime(0, startTime);
+            gain.gain.linearRampToValueAtTime(volume, startTime + 0.05);
+            gain.gain.setValueAtTime(volume, startTime + duration - 0.08);
+            gain.gain.linearRampToValueAtTime(0, startTime + duration);
+            osc.connect(gain);
+            gain.connect(musicGain);
+            osc.start(startTime);
+            osc.stop(startTime + duration);
+        }
+
+        function playGameLoop() {
+            if (!audioCtx) createMusicContext();
+            const now = audioCtx.currentTime;
+            const bpm = 72;
+            const beat = 60 / bpm;
+
+            // Pulsazione bassa tesa
+            for (let i = 0; i < 16; i++) {
+                playNote(110, now + i * beat * 0.5, beat * 0.4, 'triangle', 0.1);
+                playNote(55, now + i * beat * 0.5, beat * 0.4, 'sine', 0.06);
+            }
+
+            // Arpeggio suspense minore
+            const suspenseArp = [
+                [220, 0], [261.63, 0.5], [293.66, 1], [261.63, 1.5],
+                [220, 2], [261.63, 2.5], [311.13, 3], [293.66, 3.5],
+                [220, 4], [261.63, 4.5], [293.66, 5], [261.63, 5.5],
+                [207.65, 6], [246.94, 6.5], [293.66, 7], [261.63, 7.5]
+            ];
+            suspenseArp.forEach(([freq, time]) => {
+                playNote(freq, now + time * beat, beat * 0.4, 'sine', 0.06);
+            });
+
+            // Tick orologio sottile
+            for (let i = 0; i < 16; i++) {
+                playNote(1200, now + i * beat * 0.5, 0.02, 'square', 0.015);
+            }
+        }
+
+        function toggleMusic() {
+            const btn = document.getElementById('musicToggle');
+            if (musicPlaying) {
+                clearInterval(musicInterval);
+                if (musicGain) musicGain.gain.linearRampToValueAtTime(0, audioCtx.currentTime + 0.5);
+                musicPlaying = false;
+                btn.textContent = '🔇';
+                btn.title = 'Attiva Musica';
+            } else {
+                if (!audioCtx) createMusicContext();
+                if (audioCtx.state === 'suspended') audioCtx.resume();
+                musicGain.gain.value = 0.12;
+                playGameLoop();
+                musicInterval = setInterval(playGameLoop, 5600);
+                musicPlaying = true;
+                btn.textContent = '🔊';
+                btn.title = 'Disattiva Musica';
+            }
+        }
+
         // Inizializza il gioco quando la pagina è caricata
         window.onload = function() {
             initGame();
         };
     </script>
+
+    <style>
+        .music-toggle-btn {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            border: 2px solid rgba(255, 215, 0, 0.6);
+            background: rgba(13, 20, 66, 0.85);
+            color: white;
+            font-size: 1.6rem;
+            cursor: pointer;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4), 0 0 20px rgba(255, 215, 0, 0.15);
+            transition: all 0.3s ease;
+        }
+        .music-toggle-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5), 0 0 30px rgba(255, 215, 0, 0.3);
+            border-color: rgba(255, 215, 0, 0.9);
+        }
+    </style>
 </body>
 </html>
