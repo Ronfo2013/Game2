@@ -225,14 +225,18 @@ function timeOut() {
 // AIUTI (LIFELINES)
 // ============================================
 
-function useFiftyFifty() {
-    if (usedLifelines.fiftyFifty) {
+function useLifeline(lifelineName) {
+    if (usedLifelines[lifelineName]) {
         alert('Hai già usato questo aiuto!');
-        return;
+        return false;
     }
-    
-    usedLifelines.fiftyFifty = true;
-    document.getElementById('fiftyFifty').classList.add('used');
+    usedLifelines[lifelineName] = true;
+    document.getElementById(lifelineName).classList.add('used');
+    return true;
+}
+
+function useFiftyFifty() {
+    if (!useLifeline('fiftyFifty')) return;
     
     const question = questions[currentQuestion];
     const correct = question.correct;
@@ -250,13 +254,7 @@ function useFiftyFifty() {
 }
 
 function askAudience() {
-    if (usedLifelines.askAudience) {
-        alert('Hai già usato questo aiuto!');
-        return;
-    }
-    
-    usedLifelines.askAudience = true;
-    document.getElementById('askAudience').classList.add('used');
+    if (!useLifeline('askAudience')) return;
     
     const question = questions[currentQuestion];
     const correct = question.correct;
@@ -269,13 +267,7 @@ function askAudience() {
 }
 
 function phoneCall() {
-    if (usedLifelines.phoneCall) {
-        alert('Hai già usato questo aiuto!');
-        return;
-    }
-    
-    usedLifelines.phoneCall = true;
-    document.getElementById('phoneCall').classList.add('used');
+    if (!useLifeline('phoneCall')) return;
     
     const question = questions[currentQuestion];
     const correct = question.correct;
@@ -320,8 +312,12 @@ function showAudienceChart(percentages) {
     modal.classList.add('show');
 }
 
+function closeModal(modalId) {
+    document.getElementById(modalId).classList.remove('show');
+}
+
 function closeAudienceModal() {
-    document.getElementById('audienceModal').classList.remove('show');
+    closeModal('audienceModal');
 }
 
 function showPhoneAdvice(advice) {
@@ -338,7 +334,7 @@ function showPhoneAdvice(advice) {
 }
 
 function closePhoneModal() {
-    document.getElementById('phoneModal').classList.remove('show');
+    closeModal('phoneModal');
 }
 
 // ============================================
@@ -488,14 +484,6 @@ function generateAudiencePercentages(correctAnswer) {
     });
     
     return percentages;
-}
-
-function formatCurrency(amount) {
-    return new Intl.NumberFormat('it-IT', {
-        style: 'currency',
-        currency: 'EUR',
-        minimumFractionDigits: 0
-    }).format(amount);
 }
 
 function getDefaultQuestions() {
