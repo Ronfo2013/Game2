@@ -75,28 +75,6 @@ function saveSettingsToStorage() {
 // GESTIONE CLASSIFICA
 // ============================================
 
-function saveScore(score, questionsAnswered) {
-    let records = JSON.parse(localStorage.getItem('gameRecords')) || [];
-    
-    const newRecord = {
-        playerName: gameSettings.playerName,
-        score: score,
-        questionsAnswered: questionsAnswered,
-        date: new Date().toISOString(),
-        difficulty: gameSettings.difficulty
-    };
-    
-    records.push(newRecord);
-    
-    // Ordina per punteggio decrescente
-    records.sort((a, b) => b.score - a.score);
-    
-    // Mantieni solo i top 10
-    records = records.slice(0, 10);
-    
-    localStorage.setItem('gameRecords', JSON.stringify(records));
-}
-
 function getRecords() {
     return JSON.parse(localStorage.getItem('gameRecords')) || [];
 }
@@ -104,14 +82,6 @@ function getRecords() {
 // ============================================
 // UTILITY FUNCTIONS
 // ============================================
-
-function formatCurrency(amount) {
-    return new Intl.NumberFormat('it-IT', {
-        style: 'currency',
-        currency: 'EUR',
-        minimumFractionDigits: 0
-    }).format(amount);
-}
 
 function formatDate(dateString) {
     const date = new Date(dateString);
